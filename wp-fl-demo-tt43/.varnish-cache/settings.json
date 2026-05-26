@@ -1,0 +1,16 @@
+{
+    "enabled": false,
+    "server": "127.0.0.1:6081",
+    "cacheTagPrefix": "acb8",
+    "cacheLifetime": "604800",
+    "excludes": [
+        "^\/my-account\/",
+        "\/cart\/",
+        "\/checkout\/",
+        "wp-login.php"
+    ],
+    "excludedParams": [
+        "__SID",
+        "noCache"
+    ]
+}

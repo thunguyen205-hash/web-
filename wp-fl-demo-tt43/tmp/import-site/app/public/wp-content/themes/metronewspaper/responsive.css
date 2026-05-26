@@ -1,0 +1,166 @@
+@charset "UTF-8";
+/* ------------------------------------ */
+/* Responsive CSS Style                 */
+/* ------------------------------------ */
+/* --- Mobile Navigation Fix --- */
+.wp-block-navigation__responsive-container.is-menu-open
+.wp-block-navigation__responsive-container-content
+.has-child .submenu-container,
+.wp-block-navigation__responsive-container.is-menu-open
+.wp-block-navigation__responsive-container-content
+.has-child .wp-block-navigation__submenu-container {
+  padding-top: 1rem; }
+
+@media (min-width: 1024px) {
+  .wp-block-navigation__responsive-container-open:not(.always-shown) {
+    display: none !important; }
+
+  .wp-block-navigation__responsive-container:not(.hidden-by-default):not(.is-menu-open) {
+    display: block !important;
+    width: 100%;
+    position: relative;
+    background-color: inherit;
+    z-index: auto; } }
+/* neutralize WP default for 600px */
+@media (min-width: 600px) {
+  .wp-block-navigation__responsive-container-open:not(.always-shown) {
+    display: flex; }
+
+  .wp-block-navigation__responsive-container:not(.hidden-by-default):not(.is-menu-open) {
+    display: none; } }
+/* ------------------------------------ */
+/* Hide header-right < 1240px */
+@media only screen and (max-width: 1240px) {
+  .header-right {
+    display: none !important; }
+
+  footer.wp-block-template-part .is-layout-constrained {
+    width: 100%; } }
+/* --- 960–1239px (Tablet Landscape) --- */
+@media only screen and (min-width: 960px) and (max-width: 1239px) {
+  .home .wp-block-post-date,
+  .home .taxonomy-category {
+    display: none; } }
+/* --- < 960px general --- */
+@media only screen and (max-width: 959px) {
+  #modal-2-content {
+    background-color: #181818; }
+
+  /* === MetroNewspaper Mobile Menu Optimization (model-content-1 & 2) === */
+  #modal-1-content,
+  #modal-2-content {
+    padding: 16px !important; }
+    #modal-1-content .wp-block-navigation .wp-block-page-list,
+    #modal-1-content .wp-block-navigation__container,
+    #modal-1-content .wp-block-navigation__responsive-close,
+    #modal-1-content .wp-block-navigation__responsive-container,
+    #modal-1-content .wp-block-navigation__responsive-container-content,
+    #modal-1-content .wp-block-navigation__responsive-dialog,
+    #modal-2-content .wp-block-navigation .wp-block-page-list,
+    #modal-2-content .wp-block-navigation__container,
+    #modal-2-content .wp-block-navigation__responsive-close,
+    #modal-2-content .wp-block-navigation__responsive-container,
+    #modal-2-content .wp-block-navigation__responsive-container-content,
+    #modal-2-content .wp-block-navigation__responsive-dialog {
+      gap: 10px;
+      --navigation-layout-justification-setting: left;
+      --navigation-layout-justify: left; }
+    #modal-1-content .wp-block-navigation__responsive-container-close,
+    #modal-2-content .wp-block-navigation__responsive-container-close {
+      top: 10px !important;
+      right: 10px !important; }
+    #modal-1-content .wp-block-navigation-submenu,
+    #modal-2-content .wp-block-navigation-submenu {
+      margin-bottom: 5px; } }
+/* ------------------------------------ */
+/*  Unified Styles for <= 959px (ALL MOBILE + TABLET PORTRAIT)
+/* ------------------------------------ */
+@media only screen and (max-width: 959px) {
+  header.wp-block-template-part {
+    margin-bottom: 15px !important; }
+
+  header.wp-block-template-part .header-date {
+    display: none; }
+
+  .wp-block-site-logo img {
+    height: 30px;
+    width: auto; }
+
+  .top-bar {
+    padding-top: 5px !important;
+    padding-bottom: 5px !important; }
+
+  .header-ad,
+  .footer-logo {
+    display: none !important; }
+
+  .primary-nav {
+    background-color: rgba(0, 0, 0, 0.1) !important;
+    border-radius: 3px;
+    width: 30px;
+    position: absolute;
+    top: 49px;
+    right: 8px;
+    padding: 2px 0 !important; }
+
+  .content-3-col-1 .taxonomy-category,
+  .content-4-col .entry-meta,
+  .content-3-col-1 .entry-meta {
+    display: none; }
+
+  .content-3-col-1 .wp-block-post-title {
+    font-size: 15px !important; }
+
+  .content-section,
+  .search main,
+  .error404 main,
+  .archive main,
+  .wp-singular main,
+  .wp-block-group.has-background {
+    padding-left: 1.5%;
+    padding-right: 1.5%; }
+
+  .archive-header {
+    padding-bottom: 10px !important; }
+
+  .content-list {
+    margin-top: 15px !important; }
+
+  .content-list figure {
+    float: none;
+    margin: 0 0 15px 0;
+    width: 100% !important; }
+
+  .content-list .wp-block-post {
+    margin: 0 0 15px !important;
+    padding-bottom: 15px !important; }
+
+  .single .content-col .wp-block-post-terms.taxonomy-category {
+    margin-bottom: 15px !important; }
+
+  .single .content-col .entry-content {
+    margin-top: 15px !important; }
+
+  footer.wp-block-template-part .wp-block-heading {
+    margin-bottom: 15px !important; }
+
+  footer.wp-block-template-part .wp-block-columns {
+    gap: 20px !important; }
+
+  footer.wp-block-template-part .wp-block-column {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    margin: 0 !important;
+    padding-bottom: 20px; }
+
+  footer.wp-block-template-part .wp-block-column:last-child {
+    border-bottom: none;
+    padding-bottom: 0; }
+
+  .site-bottom .is-content-justification-space-between {
+    display: block; }
+
+  .site-bottom .copyright-info {
+    margin-bottom: 15px; } }
+/* ------------------------------------ */
+
+/*# sourceMappingURL=responsive.css.map */

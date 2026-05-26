@@ -1,0 +1,53 @@
+<!-- wp:template-part {"slug":"header","theme":"metronewspaper","tagName":"header"} /-->
+
+<!-- wp:group {"tagName":"main","layout":{"type":"constrained"}} -->
+<main class="wp-block-group"><!-- wp:columns -->
+<div class="wp-block-columns"><!-- wp:column {"width":"75%","className":"content-col"} -->
+<div class="wp-block-column content-col" style="flex-basis:75%"><!-- wp:group {"className":"archive-header","style":{"spacing":{"blockGap":"0em","padding":{"bottom":"1em"}}},"layout":{"type":"default"}} -->
+<div class="wp-block-group archive-header" style="padding-bottom:1em"><!-- wp:query-title {"type":"search","fontSize":"large"} /--></div>
+<!-- /wp:group -->
+
+<!-- wp:query {"queryId":24,"query":{"perPage":10,"pages":0,"offset":0,"postType":"post","order":"desc","orderBy":"date","author":"","search":"","exclude":[],"sticky":"exclude","inherit":true},"className":"content-list"} -->
+<div class="wp-block-query content-list"><!-- wp:post-template {"className":"content-list","layout":{"type":"default"}} -->
+<!-- wp:post-featured-image {"isLink":true,"width":"300px"} /-->
+
+<!-- wp:post-terms {"term":"category","style":{"typography":{"fontSize":"10px","textTransform":"uppercase","fontStyle":"normal","fontWeight":"600"},"elements":{"link":{"color":{"text":"var:preset|color|vivid-red"},":hover":{"color":{"text":"var:preset|color|body-text"}}}}}} /-->
+
+<!-- wp:post-title {"isLink":true,"style":{"spacing":{"margin":{"bottom":"10px","left":"0px","top":"10px"}}},"fontSize":"large"} /-->
+
+<!-- wp:post-excerpt {"fontSize":"small"} /-->
+
+<!-- wp:group {"style":{"spacing":{"blockGap":"6px","margin":{"top":"10px"}},"typography":{"fontSize":"12px"},"elements":{"link":{"color":{"text":"var:preset|color|body-text"},":hover":{"color":{"text":"var:preset|color|body-text"}}}}},"textColor":"body-text","layout":{"type":"flex","flexWrap":"nowrap"}} -->
+<div class="wp-block-group has-body-text-color has-text-color has-link-color" style="margin-top:10px;font-size:12px"><!-- wp:paragraph -->
+<p>by</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:post-author-name {"isLink":true,"style":{"typography":{"textDecoration":"underline"}}} /-->
+
+<!-- wp:post-date /--></div>
+<!-- /wp:group -->
+<!-- /wp:post-template -->
+
+<!-- wp:query-pagination {"layout":{"type":"flex","justifyContent":"center"}} -->
+<!-- wp:query-pagination-previous {"label":"Previous"} /-->
+
+<!-- wp:query-pagination-numbers /-->
+
+<!-- wp:query-pagination-next {"label":"Next"} /-->
+<!-- /wp:query-pagination -->
+
+<!-- wp:query-no-results -->
+<!-- wp:paragraph {"placeholder":"Add text or blocks that will display when a query returns no results."} -->
+<p></p>
+<!-- /wp:paragraph -->
+<!-- /wp:query-no-results --></div>
+<!-- /wp:query --></div>
+<!-- /wp:column -->
+
+<!-- wp:column {"width":"25%"} -->
+<div class="wp-block-column" style="flex-basis:25%"><!-- wp:template-part {"slug":"sidebar","theme":"metronewspaper"} /--></div>
+<!-- /wp:column --></div>
+<!-- /wp:columns --></main>
+<!-- /wp:group -->
+
+<!-- wp:template-part {"slug":"footer","theme":"metronewspaper","tagName":"footer"} /-->

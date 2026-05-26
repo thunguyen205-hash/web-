@@ -1,0 +1,667 @@
+2026-04-12T09:13:31+00:00 WARNING Product feed scheduling failed: Integration not configured. : {"flow_name":"product_feed","flow_step":"schedule_feed_generation"}
+2026-04-12T09:13:31+00:00 WARNING Language override feed scheduling failed: Integration not configured. : {"flow_name":"language_override_feed","flow_step":"schedule_feed_generation"}
+2026-04-12T09:13:31+00:00 ERROR Error persisting error logs: Cannot create the API instance because the access token is missing. : []
+2026-04-12T09:13:31+00:00 NOTICE Unable to detect valid feed configuration: No catalog ID
+2026-04-12T09:13:31+00:00 NOTICE There was an error trying to get product set data in a catalog: Cannot create the API instance because the access token is missing.
+2026-04-12T09:13:31+00:00 ERROR ProductSetSync exception: exception_code : 0; exception_class : WooCommerce\Facebook\Framework\Api\Exception: exception_message : Cannot create the API instance because the access token is missing.; exception_trace : #0 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-content/plugins/facebook-for-woocommerce/includes/ProductSets/ProductSetSync.php(139): WC_Facebookcommerce->get_api()
+#1 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-content/plugins/facebook-for-woocommerce/includes/ProductSets/ProductSetSync.php(226): WooCommerce\Facebook\ProductSets\ProductSetSync->get_fb_product_set_id()
+#2 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-content/plugins/facebook-for-woocommerce/includes/ProductSets/ProductSetSync.php(107): WooCommerce\Facebook\ProductSets\ProductSetSync->sync_all_wc_product_categories()
+#3 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-includes/class-wp-hook.php(341): WooCommerce\Facebook\ProductSets\ProductSetSync->sync_all_product_sets()
+#4 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-includes/class-wp-hook.php(365): WP_Hook->apply_filters()
+#5 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-includes/plugin.php(570): WP_Hook->do_action()
+#6 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-content/plugins/woocommerce/packages/action-scheduler/classes/actions/ActionScheduler_Action.php(86): do_action_ref_array()
+#7 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-content/plugins/woocommerce/packages/action-scheduler/classes/abstracts/ActionScheduler_Abstract_QueueRunner.php(103): ActionScheduler_Action->execute()
+#8 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(188): ActionScheduler_Abstract_QueueRunner->process_action()
+#9 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(158): ActionScheduler_QueueRunner->do_batch()
+#10 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-includes/class-wp-hook.php(341): ActionScheduler_QueueRunner->run()
+#11 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-includes/class-wp-hook.php(365): WP_Hook->apply_filters()
+#12 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-includes/plugin.php(522): WP_Hook->do_action()
+#13 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_AsyncRequest_QueueRunner.php(48): do_action()
+#14 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-content/plugins/woocommerce/includes/libraries/wp-async-request.php(147): ActionScheduler_AsyncRequest_QueueRunner->handle()
+#15 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-includes/class-wp-hook.php(341): WP_Async_Request->maybe_handle()
+#16 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-includes/class-wp-hook.php(365): WP_Hook->apply_filters()
+#17 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-includes/plugin.php(522): WP_Hook->do_action()
+#18 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-admin/admin-ajax.php(192): do_action()
+#19 {main}
+2026-04-12T09:13:31+00:00 NOTICE There was an error trying to get product set data in a catalog: Cannot create the API instance because the access token is missing.
+2026-04-12T09:13:31+00:00 ERROR ProductSetSync exception: exception_code : 0; exception_class : WooCommerce\Facebook\Framework\Api\Exception: exception_message : Cannot create the API instance because the access token is missing.; exception_trace : #0 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-content/plugins/facebook-for-woocommerce/includes/ProductSets/ProductSetSync.php(139): WC_Facebookcommerce->get_api()
+#1 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-content/plugins/facebook-for-woocommerce/includes/ProductSets/ProductSetSync.php(226): WooCommerce\Facebook\ProductSets\ProductSetSync->get_fb_product_set_id()
+#2 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-content/plugins/facebook-for-woocommerce/includes/ProductSets/ProductSetSync.php(107): WooCommerce\Facebook\ProductSets\ProductSetSync->sync_all_wc_product_categories()
+#3 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-includes/class-wp-hook.php(341): WooCommerce\Facebook\ProductSets\ProductSetSync->sync_all_product_sets()
+#4 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-includes/class-wp-hook.php(365): WP_Hook->apply_filters()
+#5 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-includes/plugin.php(570): WP_Hook->do_action()
+#6 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-content/plugins/woocommerce/packages/action-scheduler/classes/actions/ActionScheduler_Action.php(86): do_action_ref_array()
+#7 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-content/plugins/woocommerce/packages/action-scheduler/classes/abstracts/ActionScheduler_Abstract_QueueRunner.php(103): ActionScheduler_Action->execute()
+#8 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(188): ActionScheduler_Abstract_QueueRunner->process_action()
+#9 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(158): ActionScheduler_QueueRunner->do_batch()
+#10 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-includes/class-wp-hook.php(341): ActionScheduler_QueueRunner->run()
+#11 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-includes/class-wp-hook.php(365): WP_Hook->apply_filters()
+#12 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-includes/plugin.php(522): WP_Hook->do_action()
+#13 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_AsyncRequest_QueueRunner.php(48): do_action()
+#14 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-content/plugins/woocommerce/includes/libraries/wp-async-request.php(147): ActionScheduler_AsyncRequest_QueueRunner->handle()
+#15 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-includes/class-wp-hook.php(341): WP_Async_Request->maybe_handle()
+#16 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-includes/class-wp-hook.php(365): WP_Hook->apply_filters()
+#17 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-includes/plugin.php(522): WP_Hook->do_action()
+#18 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-admin/admin-ajax.php(192): do_action()
+#19 {main}
+2026-04-12T09:13:31+00:00 NOTICE There was an error trying to get product set data in a catalog: Cannot create the API instance because the access token is missing.
+2026-04-12T09:13:31+00:00 ERROR ProductSetSync exception: exception_code : 0; exception_class : WooCommerce\Facebook\Framework\Api\Exception: exception_message : Cannot create the API instance because the access token is missing.; exception_trace : #0 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-content/plugins/facebook-for-woocommerce/includes/ProductSets/ProductSetSync.php(139): WC_Facebookcommerce->get_api()
+#1 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-content/plugins/facebook-for-woocommerce/includes/ProductSets/ProductSetSync.php(226): WooCommerce\Facebook\ProductSets\ProductSetSync->get_fb_product_set_id()
+#2 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-content/plugins/facebook-for-woocommerce/includes/ProductSets/ProductSetSync.php(107): WooCommerce\Facebook\ProductSets\ProductSetSync->sync_all_wc_product_categories()
+#3 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-includes/class-wp-hook.php(341): WooCommerce\Facebook\ProductSets\ProductSetSync->sync_all_product_sets()
+#4 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-includes/class-wp-hook.php(365): WP_Hook->apply_filters()
+#5 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-includes/plugin.php(570): WP_Hook->do_action()
+#6 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-content/plugins/woocommerce/packages/action-scheduler/classes/actions/ActionScheduler_Action.php(86): do_action_ref_array()
+#7 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-content/plugins/woocommerce/packages/action-scheduler/classes/abstracts/ActionScheduler_Abstract_QueueRunner.php(103): ActionScheduler_Action->execute()
+#8 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(188): ActionScheduler_Abstract_QueueRunner->process_action()
+#9 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(158): ActionScheduler_QueueRunner->do_batch()
+#10 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-includes/class-wp-hook.php(341): ActionScheduler_QueueRunner->run()
+#11 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-includes/class-wp-hook.php(365): WP_Hook->apply_filters()
+#12 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-includes/plugin.php(522): WP_Hook->do_action()
+#13 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_AsyncRequest_QueueRunner.php(48): do_action()
+#14 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-content/plugins/woocommerce/includes/libraries/wp-async-request.php(147): ActionScheduler_AsyncRequest_QueueRunner->handle()
+#15 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-includes/class-wp-hook.php(341): WP_Async_Request->maybe_handle()
+#16 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-includes/class-wp-hook.php(365): WP_Hook->apply_filters()
+#17 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-includes/plugin.php(522): WP_Hook->do_action()
+#18 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-admin/admin-ajax.php(192): do_action()
+#19 {main}
+2026-04-12T09:13:31+00:00 NOTICE There was an error trying to get product set data in a catalog: Cannot create the API instance because the access token is missing.
+2026-04-12T09:13:31+00:00 ERROR ProductSetSync exception: exception_code : 0; exception_class : WooCommerce\Facebook\Framework\Api\Exception: exception_message : Cannot create the API instance because the access token is missing.; exception_trace : #0 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-content/plugins/facebook-for-woocommerce/includes/ProductSets/ProductSetSync.php(139): WC_Facebookcommerce->get_api()
+#1 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-content/plugins/facebook-for-woocommerce/includes/ProductSets/ProductSetSync.php(226): WooCommerce\Facebook\ProductSets\ProductSetSync->get_fb_product_set_id()
+#2 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-content/plugins/facebook-for-woocommerce/includes/ProductSets/ProductSetSync.php(107): WooCommerce\Facebook\ProductSets\ProductSetSync->sync_all_wc_product_categories()
+#3 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-includes/class-wp-hook.php(341): WooCommerce\Facebook\ProductSets\ProductSetSync->sync_all_product_sets()
+#4 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-includes/class-wp-hook.php(365): WP_Hook->apply_filters()
+#5 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-includes/plugin.php(570): WP_Hook->do_action()
+#6 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-content/plugins/woocommerce/packages/action-scheduler/classes/actions/ActionScheduler_Action.php(86): do_action_ref_array()
+#7 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-content/plugins/woocommerce/packages/action-scheduler/classes/abstracts/ActionScheduler_Abstract_QueueRunner.php(103): ActionScheduler_Action->execute()
+#8 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(188): ActionScheduler_Abstract_QueueRunner->process_action()
+#9 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(158): ActionScheduler_QueueRunner->do_batch()
+#10 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-includes/class-wp-hook.php(341): ActionScheduler_QueueRunner->run()
+#11 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-includes/class-wp-hook.php(365): WP_Hook->apply_filters()
+#12 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-includes/plugin.php(522): WP_Hook->do_action()
+#13 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_AsyncRequest_QueueRunner.php(48): do_action()
+#14 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-content/plugins/woocommerce/includes/libraries/wp-async-request.php(147): ActionScheduler_AsyncRequest_QueueRunner->handle()
+#15 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-includes/class-wp-hook.php(341): WP_Async_Request->maybe_handle()
+#16 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-includes/class-wp-hook.php(365): WP_Hook->apply_filters()
+#17 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-includes/plugin.php(522): WP_Hook->do_action()
+#18 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-admin/admin-ajax.php(192): do_action()
+#19 {main}
+2026-04-12T09:13:31+00:00 NOTICE There was an error trying to get product set data in a catalog: Cannot create the API instance because the access token is missing.
+2026-04-12T09:13:31+00:00 ERROR ProductSetSync exception: exception_code : 0; exception_class : WooCommerce\Facebook\Framework\Api\Exception: exception_message : Cannot create the API instance because the access token is missing.; exception_trace : #0 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-content/plugins/facebook-for-woocommerce/includes/ProductSets/ProductSetSync.php(139): WC_Facebookcommerce->get_api()
+#1 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-content/plugins/facebook-for-woocommerce/includes/ProductSets/ProductSetSync.php(226): WooCommerce\Facebook\ProductSets\ProductSetSync->get_fb_product_set_id()
+#2 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-content/plugins/facebook-for-woocommerce/includes/ProductSets/ProductSetSync.php(107): WooCommerce\Facebook\ProductSets\ProductSetSync->sync_all_wc_product_categories()
+#3 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-includes/class-wp-hook.php(341): WooCommerce\Facebook\ProductSets\ProductSetSync->sync_all_product_sets()
+#4 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-includes/class-wp-hook.php(365): WP_Hook->apply_filters()
+#5 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-includes/plugin.php(570): WP_Hook->do_action()
+#6 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-content/plugins/woocommerce/packages/action-scheduler/classes/actions/ActionScheduler_Action.php(86): do_action_ref_array()
+#7 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-content/plugins/woocommerce/packages/action-scheduler/classes/abstracts/ActionScheduler_Abstract_QueueRunner.php(103): ActionScheduler_Action->execute()
+#8 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(188): ActionScheduler_Abstract_QueueRunner->process_action()
+#9 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(158): ActionScheduler_QueueRunner->do_batch()
+#10 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-includes/class-wp-hook.php(341): ActionScheduler_QueueRunner->run()
+#11 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-includes/class-wp-hook.php(365): WP_Hook->apply_filters()
+#12 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-includes/plugin.php(522): WP_Hook->do_action()
+#13 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_AsyncRequest_QueueRunner.php(48): do_action()
+#14 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-content/plugins/woocommerce/includes/libraries/wp-async-request.php(147): ActionScheduler_AsyncRequest_QueueRunner->handle()
+#15 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-includes/class-wp-hook.php(341): WP_Async_Request->maybe_handle()
+#16 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-includes/class-wp-hook.php(365): WP_Hook->apply_filters()
+#17 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-includes/plugin.php(522): WP_Hook->do_action()
+#18 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-admin/admin-ajax.php(192): do_action()
+#19 {main}
+2026-04-12T09:13:31+00:00 NOTICE There was an error trying to get product set data in a catalog: Cannot create the API instance because the access token is missing.
+2026-04-12T09:13:31+00:00 ERROR ProductSetSync exception: exception_code : 0; exception_class : WooCommerce\Facebook\Framework\Api\Exception: exception_message : Cannot create the API instance because the access token is missing.; exception_trace : #0 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-content/plugins/facebook-for-woocommerce/includes/ProductSets/ProductSetSync.php(139): WC_Facebookcommerce->get_api()
+#1 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-content/plugins/facebook-for-woocommerce/includes/ProductSets/ProductSetSync.php(226): WooCommerce\Facebook\ProductSets\ProductSetSync->get_fb_product_set_id()
+#2 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-content/plugins/facebook-for-woocommerce/includes/ProductSets/ProductSetSync.php(107): WooCommerce\Facebook\ProductSets\ProductSetSync->sync_all_wc_product_categories()
+#3 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-includes/class-wp-hook.php(341): WooCommerce\Facebook\ProductSets\ProductSetSync->sync_all_product_sets()
+#4 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-includes/class-wp-hook.php(365): WP_Hook->apply_filters()
+#5 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-includes/plugin.php(570): WP_Hook->do_action()
+#6 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-content/plugins/woocommerce/packages/action-scheduler/classes/actions/ActionScheduler_Action.php(86): do_action_ref_array()
+#7 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-content/plugins/woocommerce/packages/action-scheduler/classes/abstracts/ActionScheduler_Abstract_QueueRunner.php(103): ActionScheduler_Action->execute()
+#8 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(188): ActionScheduler_Abstract_QueueRunner->process_action()
+#9 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(158): ActionScheduler_QueueRunner->do_batch()
+#10 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-includes/class-wp-hook.php(341): ActionScheduler_QueueRunner->run()
+#11 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-includes/class-wp-hook.php(365): WP_Hook->apply_filters()
+#12 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-includes/plugin.php(522): WP_Hook->do_action()
+#13 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_AsyncRequest_QueueRunner.php(48): do_action()
+#14 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-content/plugins/woocommerce/includes/libraries/wp-async-request.php(147): ActionScheduler_AsyncRequest_QueueRunner->handle()
+#15 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-includes/class-wp-hook.php(341): WP_Async_Request->maybe_handle()
+#16 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-includes/class-wp-hook.php(365): WP_Hook->apply_filters()
+#17 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-includes/plugin.php(522): WP_Hook->do_action()
+#18 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-admin/admin-ajax.php(192): do_action()
+#19 {main}
+2026-04-12T09:13:31+00:00 NOTICE There was an error trying to get product set data in a catalog: Cannot create the API instance because the access token is missing.
+2026-04-12T09:13:31+00:00 ERROR ProductSetSync exception: exception_code : 0; exception_class : WooCommerce\Facebook\Framework\Api\Exception: exception_message : Cannot create the API instance because the access token is missing.; exception_trace : #0 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-content/plugins/facebook-for-woocommerce/includes/ProductSets/ProductSetSync.php(139): WC_Facebookcommerce->get_api()
+#1 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-content/plugins/facebook-for-woocommerce/includes/ProductSets/ProductSetSync.php(226): WooCommerce\Facebook\ProductSets\ProductSetSync->get_fb_product_set_id()
+#2 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-content/plugins/facebook-for-woocommerce/includes/ProductSets/ProductSetSync.php(107): WooCommerce\Facebook\ProductSets\ProductSetSync->sync_all_wc_product_categories()
+#3 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-includes/class-wp-hook.php(341): WooCommerce\Facebook\ProductSets\ProductSetSync->sync_all_product_sets()
+#4 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-includes/class-wp-hook.php(365): WP_Hook->apply_filters()
+#5 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-includes/plugin.php(570): WP_Hook->do_action()
+#6 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-content/plugins/woocommerce/packages/action-scheduler/classes/actions/ActionScheduler_Action.php(86): do_action_ref_array()
+#7 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-content/plugins/woocommerce/packages/action-scheduler/classes/abstracts/ActionScheduler_Abstract_QueueRunner.php(103): ActionScheduler_Action->execute()
+#8 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(188): ActionScheduler_Abstract_QueueRunner->process_action()
+#9 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(158): ActionScheduler_QueueRunner->do_batch()
+#10 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-includes/class-wp-hook.php(341): ActionScheduler_QueueRunner->run()
+#11 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-includes/class-wp-hook.php(365): WP_Hook->apply_filters()
+#12 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-includes/plugin.php(522): WP_Hook->do_action()
+#13 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_AsyncRequest_QueueRunner.php(48): do_action()
+#14 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-content/plugins/woocommerce/includes/libraries/wp-async-request.php(147): ActionScheduler_AsyncRequest_QueueRunner->handle()
+#15 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-includes/class-wp-hook.php(341): WP_Async_Request->maybe_handle()
+#16 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-includes/class-wp-hook.php(365): WP_Hook->apply_filters()
+#17 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-includes/plugin.php(522): WP_Hook->do_action()
+#18 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-admin/admin-ajax.php(192): do_action()
+#19 {main}
+2026-04-12T09:13:31+00:00 NOTICE There was an error trying to get product set data in a catalog: Cannot create the API instance because the access token is missing.
+2026-04-12T09:13:31+00:00 ERROR ProductSetSync exception: exception_code : 0; exception_class : WooCommerce\Facebook\Framework\Api\Exception: exception_message : Cannot create the API instance because the access token is missing.; exception_trace : #0 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-content/plugins/facebook-for-woocommerce/includes/ProductSets/ProductSetSync.php(139): WC_Facebookcommerce->get_api()
+#1 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-content/plugins/facebook-for-woocommerce/includes/ProductSets/ProductSetSync.php(226): WooCommerce\Facebook\ProductSets\ProductSetSync->get_fb_product_set_id()
+#2 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-content/plugins/facebook-for-woocommerce/includes/ProductSets/ProductSetSync.php(107): WooCommerce\Facebook\ProductSets\ProductSetSync->sync_all_wc_product_categories()
+#3 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-includes/class-wp-hook.php(341): WooCommerce\Facebook\ProductSets\ProductSetSync->sync_all_product_sets()
+#4 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-includes/class-wp-hook.php(365): WP_Hook->apply_filters()
+#5 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-includes/plugin.php(570): WP_Hook->do_action()
+#6 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-content/plugins/woocommerce/packages/action-scheduler/classes/actions/ActionScheduler_Action.php(86): do_action_ref_array()
+#7 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-content/plugins/woocommerce/packages/action-scheduler/classes/abstracts/ActionScheduler_Abstract_QueueRunner.php(103): ActionScheduler_Action->execute()
+#8 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(188): ActionScheduler_Abstract_QueueRunner->process_action()
+#9 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(158): ActionScheduler_QueueRunner->do_batch()
+#10 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-includes/class-wp-hook.php(341): ActionScheduler_QueueRunner->run()
+#11 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-includes/class-wp-hook.php(365): WP_Hook->apply_filters()
+#12 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-includes/plugin.php(522): WP_Hook->do_action()
+#13 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_AsyncRequest_QueueRunner.php(48): do_action()
+#14 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-content/plugins/woocommerce/includes/libraries/wp-async-request.php(147): ActionScheduler_AsyncRequest_QueueRunner->handle()
+#15 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-includes/class-wp-hook.php(341): WP_Async_Request->maybe_handle()
+#16 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-includes/class-wp-hook.php(365): WP_Hook->apply_filters()
+#17 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-includes/plugin.php(522): WP_Hook->do_action()
+#18 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-admin/admin-ajax.php(192): do_action()
+#19 {main}
+2026-04-12T09:13:31+00:00 NOTICE There was an error trying to get product set data in a catalog: Cannot create the API instance because the access token is missing.
+2026-04-12T09:13:31+00:00 ERROR ProductSetSync exception: exception_code : 0; exception_class : WooCommerce\Facebook\Framework\Api\Exception: exception_message : Cannot create the API instance because the access token is missing.; exception_trace : #0 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-content/plugins/facebook-for-woocommerce/includes/ProductSets/ProductSetSync.php(139): WC_Facebookcommerce->get_api()
+#1 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-content/plugins/facebook-for-woocommerce/includes/ProductSets/ProductSetSync.php(226): WooCommerce\Facebook\ProductSets\ProductSetSync->get_fb_product_set_id()
+#2 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-content/plugins/facebook-for-woocommerce/includes/ProductSets/ProductSetSync.php(107): WooCommerce\Facebook\ProductSets\ProductSetSync->sync_all_wc_product_categories()
+#3 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-includes/class-wp-hook.php(341): WooCommerce\Facebook\ProductSets\ProductSetSync->sync_all_product_sets()
+#4 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-includes/class-wp-hook.php(365): WP_Hook->apply_filters()
+#5 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-includes/plugin.php(570): WP_Hook->do_action()
+#6 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-content/plugins/woocommerce/packages/action-scheduler/classes/actions/ActionScheduler_Action.php(86): do_action_ref_array()
+#7 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-content/plugins/woocommerce/packages/action-scheduler/classes/abstracts/ActionScheduler_Abstract_QueueRunner.php(103): ActionScheduler_Action->execute()
+#8 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(188): ActionScheduler_Abstract_QueueRunner->process_action()
+#9 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(158): ActionScheduler_QueueRunner->do_batch()
+#10 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-includes/class-wp-hook.php(341): ActionScheduler_QueueRunner->run()
+#11 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-includes/class-wp-hook.php(365): WP_Hook->apply_filters()
+#12 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-includes/plugin.php(522): WP_Hook->do_action()
+#13 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_AsyncRequest_QueueRunner.php(48): do_action()
+#14 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-content/plugins/woocommerce/includes/libraries/wp-async-request.php(147): ActionScheduler_AsyncRequest_QueueRunner->handle()
+#15 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-includes/class-wp-hook.php(341): WP_Async_Request->maybe_handle()
+#16 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-includes/class-wp-hook.php(365): WP_Hook->apply_filters()
+#17 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-includes/plugin.php(522): WP_Hook->do_action()
+#18 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-admin/admin-ajax.php(192): do_action()
+#19 {main}
+2026-04-12T09:13:31+00:00 NOTICE There was an error trying to get product set data in a catalog: Cannot create the API instance because the access token is missing.
+2026-04-12T09:13:31+00:00 ERROR ProductSetSync exception: exception_code : 0; exception_class : WooCommerce\Facebook\Framework\Api\Exception: exception_message : Cannot create the API instance because the access token is missing.; exception_trace : #0 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-content/plugins/facebook-for-woocommerce/includes/ProductSets/ProductSetSync.php(139): WC_Facebookcommerce->get_api()
+#1 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-content/plugins/facebook-for-woocommerce/includes/ProductSets/ProductSetSync.php(226): WooCommerce\Facebook\ProductSets\ProductSetSync->get_fb_product_set_id()
+#2 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-content/plugins/facebook-for-woocommerce/includes/ProductSets/ProductSetSync.php(107): WooCommerce\Facebook\ProductSets\ProductSetSync->sync_all_wc_product_categories()
+#3 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-includes/class-wp-hook.php(341): WooCommerce\Facebook\ProductSets\ProductSetSync->sync_all_product_sets()
+#4 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-includes/class-wp-hook.php(365): WP_Hook->apply_filters()
+#5 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-includes/plugin.php(570): WP_Hook->do_action()
+#6 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-content/plugins/woocommerce/packages/action-scheduler/classes/actions/ActionScheduler_Action.php(86): do_action_ref_array()
+#7 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-content/plugins/woocommerce/packages/action-scheduler/classes/abstracts/ActionScheduler_Abstract_QueueRunner.php(103): ActionScheduler_Action->execute()
+#8 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(188): ActionScheduler_Abstract_QueueRunner->process_action()
+#9 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(158): ActionScheduler_QueueRunner->do_batch()
+#10 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-includes/class-wp-hook.php(341): ActionScheduler_QueueRunner->run()
+#11 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-includes/class-wp-hook.php(365): WP_Hook->apply_filters()
+#12 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-includes/plugin.php(522): WP_Hook->do_action()
+#13 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_AsyncRequest_QueueRunner.php(48): do_action()
+#14 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-content/plugins/woocommerce/includes/libraries/wp-async-request.php(147): ActionScheduler_AsyncRequest_QueueRunner->handle()
+#15 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-includes/class-wp-hook.php(341): WP_Async_Request->maybe_handle()
+#16 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-includes/class-wp-hook.php(365): WP_Hook->apply_filters()
+#17 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-includes/plugin.php(522): WP_Hook->do_action()
+#18 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-admin/admin-ajax.php(192): do_action()
+#19 {main}
+2026-04-12T09:13:31+00:00 NOTICE There was an error trying to get product set data in a catalog: Cannot create the API instance because the access token is missing.
+2026-04-12T09:13:31+00:00 ERROR ProductSetSync exception: exception_code : 0; exception_class : WooCommerce\Facebook\Framework\Api\Exception: exception_message : Cannot create the API instance because the access token is missing.; exception_trace : #0 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-content/plugins/facebook-for-woocommerce/includes/ProductSets/ProductSetSync.php(139): WC_Facebookcommerce->get_api()
+#1 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-content/plugins/facebook-for-woocommerce/includes/ProductSets/ProductSetSync.php(226): WooCommerce\Facebook\ProductSets\ProductSetSync->get_fb_product_set_id()
+#2 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-content/plugins/facebook-for-woocommerce/includes/ProductSets/ProductSetSync.php(107): WooCommerce\Facebook\ProductSets\ProductSetSync->sync_all_wc_product_categories()
+#3 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-includes/class-wp-hook.php(341): WooCommerce\Facebook\ProductSets\ProductSetSync->sync_all_product_sets()
+#4 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-includes/class-wp-hook.php(365): WP_Hook->apply_filters()
+#5 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-includes/plugin.php(570): WP_Hook->do_action()
+#6 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-content/plugins/woocommerce/packages/action-scheduler/classes/actions/ActionScheduler_Action.php(86): do_action_ref_array()
+#7 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-content/plugins/woocommerce/packages/action-scheduler/classes/abstracts/ActionScheduler_Abstract_QueueRunner.php(103): ActionScheduler_Action->execute()
+#8 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(188): ActionScheduler_Abstract_QueueRunner->process_action()
+#9 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(158): ActionScheduler_QueueRunner->do_batch()
+#10 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-includes/class-wp-hook.php(341): ActionScheduler_QueueRunner->run()
+#11 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-includes/class-wp-hook.php(365): WP_Hook->apply_filters()
+#12 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-includes/plugin.php(522): WP_Hook->do_action()
+#13 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_AsyncRequest_QueueRunner.php(48): do_action()
+#14 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-content/plugins/woocommerce/includes/libraries/wp-async-request.php(147): ActionScheduler_AsyncRequest_QueueRunner->handle()
+#15 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-includes/class-wp-hook.php(341): WP_Async_Request->maybe_handle()
+#16 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-includes/class-wp-hook.php(365): WP_Hook->apply_filters()
+#17 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-includes/plugin.php(522): WP_Hook->do_action()
+#18 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-admin/admin-ajax.php(192): do_action()
+#19 {main}
+2026-04-12T09:13:31+00:00 NOTICE There was an error trying to get product set data in a catalog: Cannot create the API instance because the access token is missing.
+2026-04-12T09:13:31+00:00 ERROR ProductSetSync exception: exception_code : 0; exception_class : WooCommerce\Facebook\Framework\Api\Exception: exception_message : Cannot create the API instance because the access token is missing.; exception_trace : #0 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-content/plugins/facebook-for-woocommerce/includes/ProductSets/ProductSetSync.php(139): WC_Facebookcommerce->get_api()
+#1 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-content/plugins/facebook-for-woocommerce/includes/ProductSets/ProductSetSync.php(226): WooCommerce\Facebook\ProductSets\ProductSetSync->get_fb_product_set_id()
+#2 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-content/plugins/facebook-for-woocommerce/includes/ProductSets/ProductSetSync.php(107): WooCommerce\Facebook\ProductSets\ProductSetSync->sync_all_wc_product_categories()
+#3 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-includes/class-wp-hook.php(341): WooCommerce\Facebook\ProductSets\ProductSetSync->sync_all_product_sets()
+#4 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-includes/class-wp-hook.php(365): WP_Hook->apply_filters()
+#5 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-includes/plugin.php(570): WP_Hook->do_action()
+#6 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-content/plugins/woocommerce/packages/action-scheduler/classes/actions/ActionScheduler_Action.php(86): do_action_ref_array()
+#7 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-content/plugins/woocommerce/packages/action-scheduler/classes/abstracts/ActionScheduler_Abstract_QueueRunner.php(103): ActionScheduler_Action->execute()
+#8 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(188): ActionScheduler_Abstract_QueueRunner->process_action()
+#9 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(158): ActionScheduler_QueueRunner->do_batch()
+#10 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-includes/class-wp-hook.php(341): ActionScheduler_QueueRunner->run()
+#11 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-includes/class-wp-hook.php(365): WP_Hook->apply_filters()
+#12 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-includes/plugin.php(522): WP_Hook->do_action()
+#13 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_AsyncRequest_QueueRunner.php(48): do_action()
+#14 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-content/plugins/woocommerce/includes/libraries/wp-async-request.php(147): ActionScheduler_AsyncRequest_QueueRunner->handle()
+#15 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-includes/class-wp-hook.php(341): WP_Async_Request->maybe_handle()
+#16 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-includes/class-wp-hook.php(365): WP_Hook->apply_filters()
+#17 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-includes/plugin.php(522): WP_Hook->do_action()
+#18 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-admin/admin-ajax.php(192): do_action()
+#19 {main}
+2026-04-12T09:13:31+00:00 NOTICE There was an error trying to get product set data in a catalog: Cannot create the API instance because the access token is missing.
+2026-04-12T09:13:31+00:00 ERROR ProductSetSync exception: exception_code : 0; exception_class : WooCommerce\Facebook\Framework\Api\Exception: exception_message : Cannot create the API instance because the access token is missing.; exception_trace : #0 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-content/plugins/facebook-for-woocommerce/includes/ProductSets/ProductSetSync.php(139): WC_Facebookcommerce->get_api()
+#1 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-content/plugins/facebook-for-woocommerce/includes/ProductSets/ProductSetSync.php(226): WooCommerce\Facebook\ProductSets\ProductSetSync->get_fb_product_set_id()
+#2 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-content/plugins/facebook-for-woocommerce/includes/ProductSets/ProductSetSync.php(107): WooCommerce\Facebook\ProductSets\ProductSetSync->sync_all_wc_product_categories()
+#3 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-includes/class-wp-hook.php(341): WooCommerce\Facebook\ProductSets\ProductSetSync->sync_all_product_sets()
+#4 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-includes/class-wp-hook.php(365): WP_Hook->apply_filters()
+#5 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-includes/plugin.php(570): WP_Hook->do_action()
+#6 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-content/plugins/woocommerce/packages/action-scheduler/classes/actions/ActionScheduler_Action.php(86): do_action_ref_array()
+#7 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-content/plugins/woocommerce/packages/action-scheduler/classes/abstracts/ActionScheduler_Abstract_QueueRunner.php(103): ActionScheduler_Action->execute()
+#8 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(188): ActionScheduler_Abstract_QueueRunner->process_action()
+#9 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(158): ActionScheduler_QueueRunner->do_batch()
+#10 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-includes/class-wp-hook.php(341): ActionScheduler_QueueRunner->run()
+#11 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-includes/class-wp-hook.php(365): WP_Hook->apply_filters()
+#12 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-includes/plugin.php(522): WP_Hook->do_action()
+#13 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_AsyncRequest_QueueRunner.php(48): do_action()
+#14 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-content/plugins/woocommerce/includes/libraries/wp-async-request.php(147): ActionScheduler_AsyncRequest_QueueRunner->handle()
+#15 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-includes/class-wp-hook.php(341): WP_Async_Request->maybe_handle()
+#16 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-includes/class-wp-hook.php(365): WP_Hook->apply_filters()
+#17 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-includes/plugin.php(522): WP_Hook->do_action()
+#18 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-admin/admin-ajax.php(192): do_action()
+#19 {main}
+2026-04-12T09:13:31+00:00 NOTICE There was an error trying to get product set data in a catalog: Cannot create the API instance because the access token is missing.
+2026-04-12T09:13:31+00:00 ERROR ProductSetSync exception: exception_code : 0; exception_class : WooCommerce\Facebook\Framework\Api\Exception: exception_message : Cannot create the API instance because the access token is missing.; exception_trace : #0 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-content/plugins/facebook-for-woocommerce/includes/ProductSets/ProductSetSync.php(139): WC_Facebookcommerce->get_api()
+#1 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-content/plugins/facebook-for-woocommerce/includes/ProductSets/ProductSetSync.php(226): WooCommerce\Facebook\ProductSets\ProductSetSync->get_fb_product_set_id()
+#2 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-content/plugins/facebook-for-woocommerce/includes/ProductSets/ProductSetSync.php(107): WooCommerce\Facebook\ProductSets\ProductSetSync->sync_all_wc_product_categories()
+#3 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-includes/class-wp-hook.php(341): WooCommerce\Facebook\ProductSets\ProductSetSync->sync_all_product_sets()
+#4 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-includes/class-wp-hook.php(365): WP_Hook->apply_filters()
+#5 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-includes/plugin.php(570): WP_Hook->do_action()
+#6 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-content/plugins/woocommerce/packages/action-scheduler/classes/actions/ActionScheduler_Action.php(86): do_action_ref_array()
+#7 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-content/plugins/woocommerce/packages/action-scheduler/classes/abstracts/ActionScheduler_Abstract_QueueRunner.php(103): ActionScheduler_Action->execute()
+#8 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(188): ActionScheduler_Abstract_QueueRunner->process_action()
+#9 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(158): ActionScheduler_QueueRunner->do_batch()
+#10 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-includes/class-wp-hook.php(341): ActionScheduler_QueueRunner->run()
+#11 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-includes/class-wp-hook.php(365): WP_Hook->apply_filters()
+#12 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-includes/plugin.php(522): WP_Hook->do_action()
+#13 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_AsyncRequest_QueueRunner.php(48): do_action()
+#14 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-content/plugins/woocommerce/includes/libraries/wp-async-request.php(147): ActionScheduler_AsyncRequest_QueueRunner->handle()
+#15 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-includes/class-wp-hook.php(341): WP_Async_Request->maybe_handle()
+#16 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-includes/class-wp-hook.php(365): WP_Hook->apply_filters()
+#17 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-includes/plugin.php(522): WP_Hook->do_action()
+#18 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-admin/admin-ajax.php(192): do_action()
+#19 {main}
+2026-04-12T09:13:31+00:00 NOTICE There was an error trying to get product set data in a catalog: Cannot create the API instance because the access token is missing.
+2026-04-12T09:13:31+00:00 ERROR ProductSetSync exception: exception_code : 0; exception_class : WooCommerce\Facebook\Framework\Api\Exception: exception_message : Cannot create the API instance because the access token is missing.; exception_trace : #0 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-content/plugins/facebook-for-woocommerce/includes/ProductSets/ProductSetSync.php(139): WC_Facebookcommerce->get_api()
+#1 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-content/plugins/facebook-for-woocommerce/includes/ProductSets/ProductSetSync.php(226): WooCommerce\Facebook\ProductSets\ProductSetSync->get_fb_product_set_id()
+#2 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-content/plugins/facebook-for-woocommerce/includes/ProductSets/ProductSetSync.php(107): WooCommerce\Facebook\ProductSets\ProductSetSync->sync_all_wc_product_categories()
+#3 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-includes/class-wp-hook.php(341): WooCommerce\Facebook\ProductSets\ProductSetSync->sync_all_product_sets()
+#4 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-includes/class-wp-hook.php(365): WP_Hook->apply_filters()
+#5 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-includes/plugin.php(570): WP_Hook->do_action()
+#6 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-content/plugins/woocommerce/packages/action-scheduler/classes/actions/ActionScheduler_Action.php(86): do_action_ref_array()
+#7 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-content/plugins/woocommerce/packages/action-scheduler/classes/abstracts/ActionScheduler_Abstract_QueueRunner.php(103): ActionScheduler_Action->execute()
+#8 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(188): ActionScheduler_Abstract_QueueRunner->process_action()
+#9 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(158): ActionScheduler_QueueRunner->do_batch()
+#10 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-includes/class-wp-hook.php(341): ActionScheduler_QueueRunner->run()
+#11 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-includes/class-wp-hook.php(365): WP_Hook->apply_filters()
+#12 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-includes/plugin.php(522): WP_Hook->do_action()
+#13 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_AsyncRequest_QueueRunner.php(48): do_action()
+#14 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-content/plugins/woocommerce/includes/libraries/wp-async-request.php(147): ActionScheduler_AsyncRequest_QueueRunner->handle()
+#15 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-includes/class-wp-hook.php(341): WP_Async_Request->maybe_handle()
+#16 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-includes/class-wp-hook.php(365): WP_Hook->apply_filters()
+#17 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-includes/plugin.php(522): WP_Hook->do_action()
+#18 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-admin/admin-ajax.php(192): do_action()
+#19 {main}
+2026-04-12T09:13:31+00:00 NOTICE There was an error trying to get product set data in a catalog: Cannot create the API instance because the access token is missing.
+2026-04-12T09:13:31+00:00 ERROR ProductSetSync exception: exception_code : 0; exception_class : WooCommerce\Facebook\Framework\Api\Exception: exception_message : Cannot create the API instance because the access token is missing.; exception_trace : #0 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-content/plugins/facebook-for-woocommerce/includes/ProductSets/ProductSetSync.php(139): WC_Facebookcommerce->get_api()
+#1 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-content/plugins/facebook-for-woocommerce/includes/ProductSets/ProductSetSync.php(226): WooCommerce\Facebook\ProductSets\ProductSetSync->get_fb_product_set_id()
+#2 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-content/plugins/facebook-for-woocommerce/includes/ProductSets/ProductSetSync.php(107): WooCommerce\Facebook\ProductSets\ProductSetSync->sync_all_wc_product_categories()
+#3 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-includes/class-wp-hook.php(341): WooCommerce\Facebook\ProductSets\ProductSetSync->sync_all_product_sets()
+#4 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-includes/class-wp-hook.php(365): WP_Hook->apply_filters()
+#5 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-includes/plugin.php(570): WP_Hook->do_action()
+#6 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-content/plugins/woocommerce/packages/action-scheduler/classes/actions/ActionScheduler_Action.php(86): do_action_ref_array()
+#7 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-content/plugins/woocommerce/packages/action-scheduler/classes/abstracts/ActionScheduler_Abstract_QueueRunner.php(103): ActionScheduler_Action->execute()
+#8 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(188): ActionScheduler_Abstract_QueueRunner->process_action()
+#9 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(158): ActionScheduler_QueueRunner->do_batch()
+#10 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-includes/class-wp-hook.php(341): ActionScheduler_QueueRunner->run()
+#11 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-includes/class-wp-hook.php(365): WP_Hook->apply_filters()
+#12 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-includes/plugin.php(522): WP_Hook->do_action()
+#13 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_AsyncRequest_QueueRunner.php(48): do_action()
+#14 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-content/plugins/woocommerce/includes/libraries/wp-async-request.php(147): ActionScheduler_AsyncRequest_QueueRunner->handle()
+#15 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-includes/class-wp-hook.php(341): WP_Async_Request->maybe_handle()
+#16 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-includes/class-wp-hook.php(365): WP_Hook->apply_filters()
+#17 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-includes/plugin.php(522): WP_Hook->do_action()
+#18 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-admin/admin-ajax.php(192): do_action()
+#19 {main}
+2026-04-12T09:13:31+00:00 ERROR Error persisting Meta logs: Cannot create the API instance because the access token is missing. : []
+2026-04-12T09:20:42+00:00 ERROR Error persisting Meta logs: Cannot create the API instance because the access token is missing. : []
+2026-04-12T09:22:42+00:00 ERROR Error persisting Meta logs: Cannot create the API instance because the access token is missing. : []
+2026-04-12T09:27:37+00:00 ERROR Error persisting Meta logs: Cannot create the API instance because the access token is missing. : []
+2026-04-12T09:32:28+00:00 ERROR Error persisting Meta logs: Cannot create the API instance because the access token is missing. : []
+2026-04-12T09:37:37+00:00 ERROR Error persisting Meta logs: Cannot create the API instance because the access token is missing. : []
+2026-04-12T09:39:10+00:00 NOTICE There was an error trying sync products using the Catalog Batch API for job 5dd90e31f6743a45e242715219fa814e: Cannot create the API instance because the access token is missing.
+2026-04-12T09:42:49+00:00 ERROR Error persisting Meta logs: Cannot create the API instance because the access token is missing. : []
+2026-04-12T09:54:40+00:00 ERROR Error persisting Meta logs: Cannot create the API instance because the access token is missing. : []
+2026-04-12T10:15:36+00:00 ERROR Error persisting Meta logs: Cannot create the API instance because the access token is missing. : []
+2026-04-12T10:15:36+00:00 WARNING Product feed scheduling failed: Integration not configured. : {"flow_name":"product_feed","flow_step":"schedule_feed_generation"}
+2026-04-12T10:15:36+00:00 WARNING Language override feed scheduling failed: Integration not configured. : {"flow_name":"language_override_feed","flow_step":"schedule_feed_generation"}
+2026-04-12T10:30:00+00:00 ERROR Error persisting Meta logs: Cannot create the API instance because the access token is missing. : []
+2026-04-12T10:32:35+00:00 ERROR Error persisting Meta logs: Cannot create the API instance because the access token is missing. : []
+2026-04-12T10:37:56+00:00 ERROR Error persisting Meta logs: Cannot create the API instance because the access token is missing. : []
+2026-04-12T10:42:55+00:00 ERROR Error persisting Meta logs: Cannot create the API instance because the access token is missing. : []
+2026-04-12T10:48:24+00:00 ERROR Error persisting Meta logs: Cannot create the API instance because the access token is missing. : []
+2026-04-12T10:53:03+00:00 ERROR Error persisting Meta logs: Cannot create the API instance because the access token is missing. : []
+2026-04-12T11:00:41+00:00 ERROR Error persisting Meta logs: Cannot create the API instance because the access token is missing. : []
+2026-04-12T11:04:48+00:00 ERROR Error persisting Meta logs: Cannot create the API instance because the access token is missing. : []
+2026-04-12T11:07:46+00:00 ERROR Error persisting Meta logs: Cannot create the API instance because the access token is missing. : []
+2026-04-12T11:12:29+00:00 ERROR Error persisting Meta logs: Cannot create the API instance because the access token is missing. : []
+2026-04-12T11:18:12+00:00 ERROR Error persisting Meta logs: Cannot create the API instance because the access token is missing. : []
+2026-04-12T11:22:36+00:00 ERROR Error persisting Meta logs: Cannot create the API instance because the access token is missing. : []
+2026-04-12T11:27:47+00:00 ERROR Error persisting Meta logs: Cannot create the API instance because the access token is missing. : []
+2026-04-12T11:33:22+00:00 ERROR Error persisting Meta logs: Cannot create the API instance because the access token is missing. : []
+2026-04-12T11:37:30+00:00 ERROR Error persisting Meta logs: Cannot create the API instance because the access token is missing. : []
+2026-04-12T11:43:12+00:00 ERROR Error persisting Meta logs: Cannot create the API instance because the access token is missing. : []
+2026-04-12T11:49:21+00:00 ERROR Error persisting Meta logs: Cannot create the API instance because the access token is missing. : []
+2026-04-12T11:55:24+00:00 ERROR Error persisting Meta logs: Cannot create the API instance because the access token is missing. : []
+2026-04-12T11:58:18+00:00 ERROR Error persisting Meta logs: Cannot create the API instance because the access token is missing. : []
+2026-04-12T12:03:28+00:00 ERROR Error persisting Meta logs: Cannot create the API instance because the access token is missing. : []
+2026-04-12T12:09:31+00:00 ERROR Error persisting Meta logs: Cannot create the API instance because the access token is missing. : []
+2026-04-12T12:16:58+00:00 WARNING Product feed scheduling failed: Integration not configured. : {"flow_name":"product_feed","flow_step":"schedule_feed_generation"}
+2026-04-12T12:16:58+00:00 WARNING Language override feed scheduling failed: Integration not configured. : {"flow_name":"language_override_feed","flow_step":"schedule_feed_generation"}
+2026-04-12T12:16:58+00:00 ERROR Error persisting error logs: Cannot create the API instance because the access token is missing. : []
+2026-04-12T12:16:58+00:00 ERROR Error persisting Meta logs: Cannot create the API instance because the access token is missing. : []
+2026-04-12T12:17:58+00:00 ERROR Error persisting Meta logs: Cannot create the API instance because the access token is missing. : []
+2026-04-12T12:24:01+00:00 ERROR Error persisting Meta logs: Cannot create the API instance because the access token is missing. : []
+2026-04-12T12:27:28+00:00 ERROR Error persisting Meta logs: Cannot create the API instance because the access token is missing. : []
+2026-04-12T12:32:28+00:00 ERROR Error persisting Meta logs: Cannot create the API instance because the access token is missing. : []
+2026-04-12T12:37:28+00:00 ERROR Error persisting Meta logs: Cannot create the API instance because the access token is missing. : []
+2026-04-12T12:42:29+00:00 ERROR Error persisting Meta logs: Cannot create the API instance because the access token is missing. : []
+2026-04-12T12:47:30+00:00 ERROR Error persisting Meta logs: Cannot create the API instance because the access token is missing. : []
+2026-04-12T12:52:31+00:00 ERROR Error persisting Meta logs: Cannot create the API instance because the access token is missing. : []
+2026-04-12T12:57:31+00:00 ERROR Error persisting Meta logs: Cannot create the API instance because the access token is missing. : []
+2026-04-12T13:02:31+00:00 ERROR Error persisting Meta logs: Cannot create the API instance because the access token is missing. : []
+2026-04-12T13:07:31+00:00 ERROR Error persisting Meta logs: Cannot create the API instance because the access token is missing. : []
+2026-04-12T13:12:31+00:00 ERROR Error persisting Meta logs: Cannot create the API instance because the access token is missing. : []
+2026-04-12T13:17:45+00:00 ERROR Error persisting Meta logs: Cannot create the API instance because the access token is missing. : []
+2026-04-12T13:28:29+00:00 ERROR Error persisting Meta logs: Cannot create the API instance because the access token is missing. : []
+2026-04-12T13:32:31+00:00 ERROR Error persisting Meta logs: Cannot create the API instance because the access token is missing. : []
+2026-04-12T13:38:11+00:00 ERROR Error persisting Meta logs: Cannot create the API instance because the access token is missing. : []
+2026-04-12T13:43:21+00:00 ERROR Error persisting Meta logs: Cannot create the API instance because the access token is missing. : []
+2026-04-12T13:47:41+00:00 ERROR Error persisting Meta logs: Cannot create the API instance because the access token is missing. : []
+2026-04-12T13:48:52+00:00 NOTICE There was an error trying to get product set data in a catalog: Cannot create the API instance because the access token is missing.
+2026-04-12T13:48:52+00:00 ERROR ProductSetSync exception: exception_code : 0; exception_class : WooCommerce\Facebook\Framework\Api\Exception: exception_message : Cannot create the API instance because the access token is missing.; exception_trace : #0 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-content/plugins/facebook-for-woocommerce/includes/ProductSets/ProductSetSync.php(139): WC_Facebookcommerce->get_api()
+#1 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-content/plugins/facebook-for-woocommerce/includes/ProductSets/ProductSetSync.php(65): WooCommerce\Facebook\ProductSets\ProductSetSync->get_fb_product_set_id()
+#2 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-includes/class-wp-hook.php(341): WooCommerce\Facebook\ProductSets\ProductSetSync->on_create_or_update_product_wc_category_callback()
+#3 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-includes/class-wp-hook.php(365): WP_Hook->apply_filters()
+#4 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-includes/plugin.php(522): WP_Hook->do_action()
+#5 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-includes/taxonomy.php(2697): do_action()
+#6 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-admin/includes/ajax-actions.php(623): wp_insert_term()
+#7 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-includes/class-wp-hook.php(341): _wp_ajax_add_hierarchical_term()
+#8 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-includes/class-wp-hook.php(365): WP_Hook->apply_filters()
+#9 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-includes/plugin.php(522): WP_Hook->do_action()
+#10 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-admin/admin-ajax.php(192): do_action()
+#11 {main}
+2026-04-12T13:50:55+00:00 NOTICE There was an error trying sync products using the Catalog Batch API for job e176547ac14629cc39ffa9a02c1be200: Cannot create the API instance because the access token is missing.
+2026-04-12T13:52:31+00:00 ERROR Error persisting Meta logs: Cannot create the API instance because the access token is missing. : []
+2026-04-12T13:56:13+00:00 NOTICE There was an error trying to get product set data in a catalog: Cannot create the API instance because the access token is missing.
+2026-04-12T13:56:13+00:00 ERROR ProductSetSync exception: exception_code : 0; exception_class : WooCommerce\Facebook\Framework\Api\Exception: exception_message : Cannot create the API instance because the access token is missing.; exception_trace : #0 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-content/plugins/facebook-for-woocommerce/includes/ProductSets/ProductSetSync.php(139): WC_Facebookcommerce->get_api()
+#1 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-content/plugins/facebook-for-woocommerce/includes/ProductSets/ProductSetSync.php(87): WooCommerce\Facebook\ProductSets\ProductSetSync->get_fb_product_set_id()
+#2 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-includes/class-wp-hook.php(341): WooCommerce\Facebook\ProductSets\ProductSetSync->on_delete_wc_product_category_callback()
+#3 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-includes/class-wp-hook.php(365): WP_Hook->apply_filters()
+#4 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-includes/plugin.php(522): WP_Hook->do_action()
+#5 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-includes/taxonomy.php(2233): do_action()
+#6 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-admin/edit-tags.php(144): wp_delete_term()
+#7 {main}
+2026-04-12T13:56:13+00:00 NOTICE There was an error trying to get product set data in a catalog: Cannot create the API instance because the access token is missing.
+2026-04-12T13:56:13+00:00 ERROR ProductSetSync exception: exception_code : 0; exception_class : WooCommerce\Facebook\Framework\Api\Exception: exception_message : Cannot create the API instance because the access token is missing.; exception_trace : #0 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-content/plugins/facebook-for-woocommerce/includes/ProductSets/ProductSetSync.php(139): WC_Facebookcommerce->get_api()
+#1 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-content/plugins/facebook-for-woocommerce/includes/ProductSets/ProductSetSync.php(87): WooCommerce\Facebook\ProductSets\ProductSetSync->get_fb_product_set_id()
+#2 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-includes/class-wp-hook.php(341): WooCommerce\Facebook\ProductSets\ProductSetSync->on_delete_wc_product_category_callback()
+#3 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-includes/class-wp-hook.php(365): WP_Hook->apply_filters()
+#4 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-includes/plugin.php(522): WP_Hook->do_action()
+#5 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-includes/taxonomy.php(2233): do_action()
+#6 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-admin/edit-tags.php(144): wp_delete_term()
+#7 {main}
+2026-04-12T13:56:13+00:00 NOTICE There was an error trying to get product set data in a catalog: Cannot create the API instance because the access token is missing.
+2026-04-12T13:56:13+00:00 ERROR ProductSetSync exception: exception_code : 0; exception_class : WooCommerce\Facebook\Framework\Api\Exception: exception_message : Cannot create the API instance because the access token is missing.; exception_trace : #0 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-content/plugins/facebook-for-woocommerce/includes/ProductSets/ProductSetSync.php(139): WC_Facebookcommerce->get_api()
+#1 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-content/plugins/facebook-for-woocommerce/includes/ProductSets/ProductSetSync.php(87): WooCommerce\Facebook\ProductSets\ProductSetSync->get_fb_product_set_id()
+#2 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-includes/class-wp-hook.php(341): WooCommerce\Facebook\ProductSets\ProductSetSync->on_delete_wc_product_category_callback()
+#3 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-includes/class-wp-hook.php(365): WP_Hook->apply_filters()
+#4 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-includes/plugin.php(522): WP_Hook->do_action()
+#5 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-includes/taxonomy.php(2233): do_action()
+#6 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-admin/edit-tags.php(144): wp_delete_term()
+#7 {main}
+2026-04-12T13:56:13+00:00 NOTICE There was an error trying to get product set data in a catalog: Cannot create the API instance because the access token is missing.
+2026-04-12T13:56:13+00:00 ERROR ProductSetSync exception: exception_code : 0; exception_class : WooCommerce\Facebook\Framework\Api\Exception: exception_message : Cannot create the API instance because the access token is missing.; exception_trace : #0 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-content/plugins/facebook-for-woocommerce/includes/ProductSets/ProductSetSync.php(139): WC_Facebookcommerce->get_api()
+#1 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-content/plugins/facebook-for-woocommerce/includes/ProductSets/ProductSetSync.php(87): WooCommerce\Facebook\ProductSets\ProductSetSync->get_fb_product_set_id()
+#2 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-includes/class-wp-hook.php(341): WooCommerce\Facebook\ProductSets\ProductSetSync->on_delete_wc_product_category_callback()
+#3 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-includes/class-wp-hook.php(365): WP_Hook->apply_filters()
+#4 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-includes/plugin.php(522): WP_Hook->do_action()
+#5 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-includes/taxonomy.php(2233): do_action()
+#6 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-admin/edit-tags.php(144): wp_delete_term()
+#7 {main}
+2026-04-12T13:56:14+00:00 NOTICE There was an error trying to get product set data in a catalog: Cannot create the API instance because the access token is missing.
+2026-04-12T13:56:14+00:00 ERROR ProductSetSync exception: exception_code : 0; exception_class : WooCommerce\Facebook\Framework\Api\Exception: exception_message : Cannot create the API instance because the access token is missing.; exception_trace : #0 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-content/plugins/facebook-for-woocommerce/includes/ProductSets/ProductSetSync.php(139): WC_Facebookcommerce->get_api()
+#1 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-content/plugins/facebook-for-woocommerce/includes/ProductSets/ProductSetSync.php(87): WooCommerce\Facebook\ProductSets\ProductSetSync->get_fb_product_set_id()
+#2 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-includes/class-wp-hook.php(341): WooCommerce\Facebook\ProductSets\ProductSetSync->on_delete_wc_product_category_callback()
+#3 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-includes/class-wp-hook.php(365): WP_Hook->apply_filters()
+#4 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-includes/plugin.php(522): WP_Hook->do_action()
+#5 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-includes/taxonomy.php(2233): do_action()
+#6 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-admin/edit-tags.php(144): wp_delete_term()
+#7 {main}
+2026-04-12T13:56:14+00:00 NOTICE There was an error trying to get product set data in a catalog: Cannot create the API instance because the access token is missing.
+2026-04-12T13:56:14+00:00 ERROR ProductSetSync exception: exception_code : 0; exception_class : WooCommerce\Facebook\Framework\Api\Exception: exception_message : Cannot create the API instance because the access token is missing.; exception_trace : #0 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-content/plugins/facebook-for-woocommerce/includes/ProductSets/ProductSetSync.php(139): WC_Facebookcommerce->get_api()
+#1 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-content/plugins/facebook-for-woocommerce/includes/ProductSets/ProductSetSync.php(87): WooCommerce\Facebook\ProductSets\ProductSetSync->get_fb_product_set_id()
+#2 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-includes/class-wp-hook.php(341): WooCommerce\Facebook\ProductSets\ProductSetSync->on_delete_wc_product_category_callback()
+#3 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-includes/class-wp-hook.php(365): WP_Hook->apply_filters()
+#4 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-includes/plugin.php(522): WP_Hook->do_action()
+#5 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-includes/taxonomy.php(2233): do_action()
+#6 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-admin/edit-tags.php(144): wp_delete_term()
+#7 {main}
+2026-04-12T13:56:14+00:00 NOTICE There was an error trying to get product set data in a catalog: Cannot create the API instance because the access token is missing.
+2026-04-12T13:56:14+00:00 ERROR ProductSetSync exception: exception_code : 0; exception_class : WooCommerce\Facebook\Framework\Api\Exception: exception_message : Cannot create the API instance because the access token is missing.; exception_trace : #0 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-content/plugins/facebook-for-woocommerce/includes/ProductSets/ProductSetSync.php(139): WC_Facebookcommerce->get_api()
+#1 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-content/plugins/facebook-for-woocommerce/includes/ProductSets/ProductSetSync.php(87): WooCommerce\Facebook\ProductSets\ProductSetSync->get_fb_product_set_id()
+#2 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-includes/class-wp-hook.php(341): WooCommerce\Facebook\ProductSets\ProductSetSync->on_delete_wc_product_category_callback()
+#3 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-includes/class-wp-hook.php(365): WP_Hook->apply_filters()
+#4 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-includes/plugin.php(522): WP_Hook->do_action()
+#5 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-includes/taxonomy.php(2233): do_action()
+#6 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-admin/edit-tags.php(144): wp_delete_term()
+#7 {main}
+2026-04-12T13:56:14+00:00 NOTICE There was an error trying to get product set data in a catalog: Cannot create the API instance because the access token is missing.
+2026-04-12T13:56:14+00:00 ERROR ProductSetSync exception: exception_code : 0; exception_class : WooCommerce\Facebook\Framework\Api\Exception: exception_message : Cannot create the API instance because the access token is missing.; exception_trace : #0 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-content/plugins/facebook-for-woocommerce/includes/ProductSets/ProductSetSync.php(139): WC_Facebookcommerce->get_api()
+#1 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-content/plugins/facebook-for-woocommerce/includes/ProductSets/ProductSetSync.php(87): WooCommerce\Facebook\ProductSets\ProductSetSync->get_fb_product_set_id()
+#2 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-includes/class-wp-hook.php(341): WooCommerce\Facebook\ProductSets\ProductSetSync->on_delete_wc_product_category_callback()
+#3 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-includes/class-wp-hook.php(365): WP_Hook->apply_filters()
+#4 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-includes/plugin.php(522): WP_Hook->do_action()
+#5 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-includes/taxonomy.php(2233): do_action()
+#6 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-admin/edit-tags.php(144): wp_delete_term()
+#7 {main}
+2026-04-12T13:56:14+00:00 NOTICE There was an error trying to get product set data in a catalog: Cannot create the API instance because the access token is missing.
+2026-04-12T13:56:14+00:00 ERROR ProductSetSync exception: exception_code : 0; exception_class : WooCommerce\Facebook\Framework\Api\Exception: exception_message : Cannot create the API instance because the access token is missing.; exception_trace : #0 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-content/plugins/facebook-for-woocommerce/includes/ProductSets/ProductSetSync.php(139): WC_Facebookcommerce->get_api()
+#1 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-content/plugins/facebook-for-woocommerce/includes/ProductSets/ProductSetSync.php(87): WooCommerce\Facebook\ProductSets\ProductSetSync->get_fb_product_set_id()
+#2 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-includes/class-wp-hook.php(341): WooCommerce\Facebook\ProductSets\ProductSetSync->on_delete_wc_product_category_callback()
+#3 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-includes/class-wp-hook.php(365): WP_Hook->apply_filters()
+#4 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-includes/plugin.php(522): WP_Hook->do_action()
+#5 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-includes/taxonomy.php(2233): do_action()
+#6 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-admin/edit-tags.php(144): wp_delete_term()
+#7 {main}
+2026-04-12T13:56:14+00:00 NOTICE There was an error trying to get product set data in a catalog: Cannot create the API instance because the access token is missing.
+2026-04-12T13:56:14+00:00 ERROR ProductSetSync exception: exception_code : 0; exception_class : WooCommerce\Facebook\Framework\Api\Exception: exception_message : Cannot create the API instance because the access token is missing.; exception_trace : #0 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-content/plugins/facebook-for-woocommerce/includes/ProductSets/ProductSetSync.php(139): WC_Facebookcommerce->get_api()
+#1 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-content/plugins/facebook-for-woocommerce/includes/ProductSets/ProductSetSync.php(87): WooCommerce\Facebook\ProductSets\ProductSetSync->get_fb_product_set_id()
+#2 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-includes/class-wp-hook.php(341): WooCommerce\Facebook\ProductSets\ProductSetSync->on_delete_wc_product_category_callback()
+#3 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-includes/class-wp-hook.php(365): WP_Hook->apply_filters()
+#4 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-includes/plugin.php(522): WP_Hook->do_action()
+#5 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-includes/taxonomy.php(2233): do_action()
+#6 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-admin/edit-tags.php(144): wp_delete_term()
+#7 {main}
+2026-04-12T13:56:14+00:00 NOTICE There was an error trying to get product set data in a catalog: Cannot create the API instance because the access token is missing.
+2026-04-12T13:56:14+00:00 ERROR ProductSetSync exception: exception_code : 0; exception_class : WooCommerce\Facebook\Framework\Api\Exception: exception_message : Cannot create the API instance because the access token is missing.; exception_trace : #0 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-content/plugins/facebook-for-woocommerce/includes/ProductSets/ProductSetSync.php(139): WC_Facebookcommerce->get_api()
+#1 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-content/plugins/facebook-for-woocommerce/includes/ProductSets/ProductSetSync.php(87): WooCommerce\Facebook\ProductSets\ProductSetSync->get_fb_product_set_id()
+#2 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-includes/class-wp-hook.php(341): WooCommerce\Facebook\ProductSets\ProductSetSync->on_delete_wc_product_category_callback()
+#3 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-includes/class-wp-hook.php(365): WP_Hook->apply_filters()
+#4 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-includes/plugin.php(522): WP_Hook->do_action()
+#5 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-includes/taxonomy.php(2233): do_action()
+#6 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-admin/edit-tags.php(144): wp_delete_term()
+#7 {main}
+2026-04-12T13:56:14+00:00 NOTICE There was an error trying to get product set data in a catalog: Cannot create the API instance because the access token is missing.
+2026-04-12T13:56:14+00:00 ERROR ProductSetSync exception: exception_code : 0; exception_class : WooCommerce\Facebook\Framework\Api\Exception: exception_message : Cannot create the API instance because the access token is missing.; exception_trace : #0 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-content/plugins/facebook-for-woocommerce/includes/ProductSets/ProductSetSync.php(139): WC_Facebookcommerce->get_api()
+#1 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-content/plugins/facebook-for-woocommerce/includes/ProductSets/ProductSetSync.php(87): WooCommerce\Facebook\ProductSets\ProductSetSync->get_fb_product_set_id()
+#2 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-includes/class-wp-hook.php(341): WooCommerce\Facebook\ProductSets\ProductSetSync->on_delete_wc_product_category_callback()
+#3 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-includes/class-wp-hook.php(365): WP_Hook->apply_filters()
+#4 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-includes/plugin.php(522): WP_Hook->do_action()
+#5 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-includes/taxonomy.php(2233): do_action()
+#6 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-admin/edit-tags.php(144): wp_delete_term()
+#7 {main}
+2026-04-12T13:56:14+00:00 NOTICE There was an error trying to get product set data in a catalog: Cannot create the API instance because the access token is missing.
+2026-04-12T13:56:14+00:00 ERROR ProductSetSync exception: exception_code : 0; exception_class : WooCommerce\Facebook\Framework\Api\Exception: exception_message : Cannot create the API instance because the access token is missing.; exception_trace : #0 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-content/plugins/facebook-for-woocommerce/includes/ProductSets/ProductSetSync.php(139): WC_Facebookcommerce->get_api()
+#1 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-content/plugins/facebook-for-woocommerce/includes/ProductSets/ProductSetSync.php(87): WooCommerce\Facebook\ProductSets\ProductSetSync->get_fb_product_set_id()
+#2 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-includes/class-wp-hook.php(341): WooCommerce\Facebook\ProductSets\ProductSetSync->on_delete_wc_product_category_callback()
+#3 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-includes/class-wp-hook.php(365): WP_Hook->apply_filters()
+#4 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-includes/plugin.php(522): WP_Hook->do_action()
+#5 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-includes/taxonomy.php(2233): do_action()
+#6 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-admin/edit-tags.php(144): wp_delete_term()
+#7 {main}
+2026-04-12T13:56:14+00:00 NOTICE There was an error trying to get product set data in a catalog: Cannot create the API instance because the access token is missing.
+2026-04-12T13:56:14+00:00 ERROR ProductSetSync exception: exception_code : 0; exception_class : WooCommerce\Facebook\Framework\Api\Exception: exception_message : Cannot create the API instance because the access token is missing.; exception_trace : #0 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-content/plugins/facebook-for-woocommerce/includes/ProductSets/ProductSetSync.php(139): WC_Facebookcommerce->get_api()
+#1 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-content/plugins/facebook-for-woocommerce/includes/ProductSets/ProductSetSync.php(87): WooCommerce\Facebook\ProductSets\ProductSetSync->get_fb_product_set_id()
+#2 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-includes/class-wp-hook.php(341): WooCommerce\Facebook\ProductSets\ProductSetSync->on_delete_wc_product_category_callback()
+#3 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-includes/class-wp-hook.php(365): WP_Hook->apply_filters()
+#4 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-includes/plugin.php(522): WP_Hook->do_action()
+#5 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-includes/taxonomy.php(2233): do_action()
+#6 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-admin/edit-tags.php(144): wp_delete_term()
+#7 {main}
+2026-04-12T13:56:14+00:00 NOTICE There was an error trying to get product set data in a catalog: Cannot create the API instance because the access token is missing.
+2026-04-12T13:56:14+00:00 ERROR ProductSetSync exception: exception_code : 0; exception_class : WooCommerce\Facebook\Framework\Api\Exception: exception_message : Cannot create the API instance because the access token is missing.; exception_trace : #0 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-content/plugins/facebook-for-woocommerce/includes/ProductSets/ProductSetSync.php(139): WC_Facebookcommerce->get_api()
+#1 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-content/plugins/facebook-for-woocommerce/includes/ProductSets/ProductSetSync.php(87): WooCommerce\Facebook\ProductSets\ProductSetSync->get_fb_product_set_id()
+#2 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-includes/class-wp-hook.php(341): WooCommerce\Facebook\ProductSets\ProductSetSync->on_delete_wc_product_category_callback()
+#3 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-includes/class-wp-hook.php(365): WP_Hook->apply_filters()
+#4 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-includes/plugin.php(522): WP_Hook->do_action()
+#5 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-includes/taxonomy.php(2233): do_action()
+#6 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-admin/edit-tags.php(144): wp_delete_term()
+#7 {main}
+2026-04-12T13:56:49+00:00 NOTICE There was an error trying to get product set data in a catalog: Cannot create the API instance because the access token is missing.
+2026-04-12T13:56:49+00:00 ERROR ProductSetSync exception: exception_code : 0; exception_class : WooCommerce\Facebook\Framework\Api\Exception: exception_message : Cannot create the API instance because the access token is missing.; exception_trace : #0 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-content/plugins/facebook-for-woocommerce/includes/ProductSets/ProductSetSync.php(139): WC_Facebookcommerce->get_api()
+#1 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-content/plugins/facebook-for-woocommerce/includes/ProductSets/ProductSetSync.php(65): WooCommerce\Facebook\ProductSets\ProductSetSync->get_fb_product_set_id()
+#2 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-includes/class-wp-hook.php(341): WooCommerce\Facebook\ProductSets\ProductSetSync->on_create_or_update_product_wc_category_callback()
+#3 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-includes/class-wp-hook.php(365): WP_Hook->apply_filters()
+#4 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-includes/plugin.php(522): WP_Hook->do_action()
+#5 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-includes/taxonomy.php(2697): do_action()
+#6 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-admin/includes/ajax-actions.php(1103): wp_insert_term()
+#7 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-includes/class-wp-hook.php(341): wp_ajax_add_tag()
+#8 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-includes/class-wp-hook.php(365): WP_Hook->apply_filters()
+#9 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-includes/plugin.php(522): WP_Hook->do_action()
+#10 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-admin/admin-ajax.php(192): do_action()
+#11 {main}
+2026-04-12T13:57:06+00:00 NOTICE There was an error trying to get product set data in a catalog: Cannot create the API instance because the access token is missing.
+2026-04-12T13:57:06+00:00 ERROR ProductSetSync exception: exception_code : 0; exception_class : WooCommerce\Facebook\Framework\Api\Exception: exception_message : Cannot create the API instance because the access token is missing.; exception_trace : #0 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-content/plugins/facebook-for-woocommerce/includes/ProductSets/ProductSetSync.php(139): WC_Facebookcommerce->get_api()
+#1 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-content/plugins/facebook-for-woocommerce/includes/ProductSets/ProductSetSync.php(65): WooCommerce\Facebook\ProductSets\ProductSetSync->get_fb_product_set_id()
+#2 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-includes/class-wp-hook.php(341): WooCommerce\Facebook\ProductSets\ProductSetSync->on_create_or_update_product_wc_category_callback()
+#3 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-includes/class-wp-hook.php(365): WP_Hook->apply_filters()
+#4 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-includes/plugin.php(522): WP_Hook->do_action()
+#5 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-includes/taxonomy.php(2697): do_action()
+#6 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-admin/includes/ajax-actions.php(1103): wp_insert_term()
+#7 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-includes/class-wp-hook.php(341): wp_ajax_add_tag()
+#8 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-includes/class-wp-hook.php(365): WP_Hook->apply_filters()
+#9 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-includes/plugin.php(522): WP_Hook->do_action()
+#10 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-admin/admin-ajax.php(192): do_action()
+#11 {main}
+2026-04-12T13:57:29+00:00 ERROR Error persisting Meta logs: Cannot create the API instance because the access token is missing. : []
+2026-04-12T13:57:48+00:00 NOTICE There was an error trying sync products using the Catalog Batch API for job 8f0ad6745ee5c6023dfac7c9e573009f: Cannot create the API instance because the access token is missing.
+2026-04-12T13:58:11+00:00 NOTICE There was an error trying sync products using the Catalog Batch API for job 147d69348d86224d00a16030db901430: Cannot create the API instance because the access token is missing.
+2026-04-12T14:02:39+00:00 ERROR Error persisting Meta logs: Cannot create the API instance because the access token is missing. : []
+2026-04-12T14:07:01+00:00 NOTICE There was an error trying sync products using the Catalog Batch API for job ac2340f870e15b7ee61977617d6fdfe1: Cannot create the API instance because the access token is missing.
+2026-04-12T14:07:30+00:00 ERROR Error persisting Meta logs: Cannot create the API instance because the access token is missing. : []
+2026-04-12T14:09:34+00:00 NOTICE There was an error trying sync products using the Catalog Batch API for job c1017ae9d93f741b5d24bb0e29b2710f: Cannot create the API instance because the access token is missing.
+2026-04-12T14:12:47+00:00 NOTICE There was an error trying sync products using the Catalog Batch API for job 23384c865a64d8733dc4253d76f5f954: Cannot create the API instance because the access token is missing.
+2026-04-12T14:12:48+00:00 WARNING Product feed scheduling failed: Integration not configured. : {"flow_name":"product_feed","flow_step":"schedule_feed_generation"}
+2026-04-12T14:12:48+00:00 WARNING Language override feed scheduling failed: Integration not configured. : {"flow_name":"language_override_feed","flow_step":"schedule_feed_generation"}
+2026-04-12T14:12:48+00:00 ERROR Error persisting Meta logs: Cannot create the API instance because the access token is missing. : []
+2026-04-12T14:14:34+00:00 NOTICE There was an error trying sync products using the Catalog Batch API for job 7d9927e44f2383b0cceebaea8fe781ae: Cannot create the API instance because the access token is missing.
+2026-04-12T14:17:22+00:00 NOTICE There was an error trying sync products using the Catalog Batch API for job fea70ad1808577a1921c1fdb45393a2c: Cannot create the API instance because the access token is missing.
+2026-04-12T14:17:30+00:00 ERROR Error persisting Meta logs: Cannot create the API instance because the access token is missing. : []
+2026-04-12T14:19:19+00:00 NOTICE There was an error trying sync products using the Catalog Batch API for job 693a583d247dcf779e90e479cc675960: Cannot create the API instance because the access token is missing.
+2026-04-12T14:22:30+00:00 NOTICE There was an error trying sync products using the Catalog Batch API for job 14640a209c739234fcd82c5057b39b54: Cannot create the API instance because the access token is missing.
+2026-04-12T14:22:31+00:00 ERROR Error persisting Meta logs: Cannot create the API instance because the access token is missing. : []
+2026-04-12T14:25:05+00:00 NOTICE There was an error trying sync products using the Catalog Batch API for job b0680a65d29b16d82cb86710d59dc540: Cannot create the API instance because the access token is missing.
+2026-04-12T14:27:31+00:00 ERROR Error persisting Meta logs: Cannot create the API instance because the access token is missing. : []
+2026-04-12T14:32:32+00:00 ERROR Error persisting Meta logs: Cannot create the API instance because the access token is missing. : []
+2026-04-12T14:37:53+00:00 ERROR Error persisting Meta logs: Cannot create the API instance because the access token is missing. : []
+2026-04-12T14:42:52+00:00 ERROR Error persisting Meta logs: Cannot create the API instance because the access token is missing. : []
+2026-04-12T14:47:34+00:00 ERROR Error persisting Meta logs: Cannot create the API instance because the access token is missing. : []
+2026-04-12T14:52:49+00:00 NOTICE There was an error trying to get product set data in a catalog: Cannot create the API instance because the access token is missing.
+2026-04-12T14:52:49+00:00 ERROR ProductSetSync exception: exception_code : 0; exception_class : WooCommerce\Facebook\Framework\Api\Exception: exception_message : Cannot create the API instance because the access token is missing.; exception_trace : #0 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-content/plugins/facebook-for-woocommerce/includes/ProductSets/ProductSetSync.php(139): WC_Facebookcommerce->get_api()
+#1 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-content/plugins/facebook-for-woocommerce/includes/ProductSets/ProductSetSync.php(65): WooCommerce\Facebook\ProductSets\ProductSetSync->get_fb_product_set_id()
+#2 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-includes/class-wp-hook.php(341): WooCommerce\Facebook\ProductSets\ProductSetSync->on_create_or_update_product_wc_category_callback()
+#3 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-includes/class-wp-hook.php(365): WP_Hook->apply_filters()
+#4 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-includes/plugin.php(522): WP_Hook->do_action()
+#5 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-includes/taxonomy.php(2697): do_action()
+#6 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-admin/includes/ajax-actions.php(623): wp_insert_term()
+#7 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-includes/class-wp-hook.php(341): _wp_ajax_add_hierarchical_term()
+#8 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-includes/class-wp-hook.php(365): WP_Hook->apply_filters()
+#9 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-includes/plugin.php(522): WP_Hook->do_action()
+#10 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-admin/admin-ajax.php(192): do_action()
+#11 {main}
+2026-04-12T14:52:50+00:00 ERROR Error persisting Meta logs: Cannot create the API instance because the access token is missing. : []
+2026-04-12T14:54:43+00:00 NOTICE There was an error trying sync products using the Catalog Batch API for job 93464a47db746678de5aaf382cc5128f: Cannot create the API instance because the access token is missing.
+2026-04-12T14:57:02+00:00 NOTICE There was an error trying sync products using the Catalog Batch API for job ec1d9ae60acd293ca29f1c789b0a0629: Cannot create the API instance because the access token is missing.
+2026-04-12T14:57:28+00:00 ERROR Error persisting Meta logs: Cannot create the API instance because the access token is missing. : []
+2026-04-12T15:02:35+00:00 ERROR Error persisting Meta logs: Cannot create the API instance because the access token is missing. : []
+2026-04-12T15:08:03+00:00 ERROR Error persisting Meta logs: Cannot create the API instance because the access token is missing. : []
+2026-04-12T15:10:10+00:00 NOTICE There was an error trying to get product set data in a catalog: Cannot create the API instance because the access token is missing.
+2026-04-12T15:10:10+00:00 ERROR ProductSetSync exception: exception_code : 0; exception_class : WooCommerce\Facebook\Framework\Api\Exception: exception_message : Cannot create the API instance because the access token is missing.; exception_trace : #0 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-content/plugins/facebook-for-woocommerce/includes/ProductSets/ProductSetSync.php(139): WC_Facebookcommerce->get_api()
+#1 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-content/plugins/facebook-for-woocommerce/includes/ProductSets/ProductSetSync.php(65): WooCommerce\Facebook\ProductSets\ProductSetSync->get_fb_product_set_id()
+#2 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-includes/class-wp-hook.php(341): WooCommerce\Facebook\ProductSets\ProductSetSync->on_create_or_update_product_wc_category_callback()
+#3 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-includes/class-wp-hook.php(365): WP_Hook->apply_filters()
+#4 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-includes/plugin.php(522): WP_Hook->do_action()
+#5 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-includes/taxonomy.php(2697): do_action()
+#6 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-admin/includes/ajax-actions.php(623): wp_insert_term()
+#7 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-includes/class-wp-hook.php(341): _wp_ajax_add_hierarchical_term()
+#8 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-includes/class-wp-hook.php(365): WP_Hook->apply_filters()
+#9 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-includes/plugin.php(522): WP_Hook->do_action()
+#10 /home/wp-fl-demo-bh43/htdocs/bh43.wp-fl-demo.xyz/wp-admin/admin-ajax.php(192): do_action()
+#11 {main}
+2026-04-12T15:11:23+00:00 NOTICE There was an error trying sync products using the Catalog Batch API for job 955f2975d30ae09e30a61dfce27c4f11: Cannot create the API instance because the access token is missing.
+2026-04-12T15:12:39+00:00 ERROR Error persisting Meta logs: Cannot create the API instance because the access token is missing. : []
+2026-04-12T15:13:28+00:00 NOTICE There was an error trying sync products using the Catalog Batch API for job 39fec63ebf75595239a3d54cbfbd8f47: Cannot create the API instance because the access token is missing.
+2026-04-12T15:15:15+00:00 NOTICE There was an error trying sync products using the Catalog Batch API for job ec8d5c7728996fa59665eee27c854425: Cannot create the API instance because the access token is missing.
+2026-04-12T15:17:51+00:00 NOTICE There was an error trying sync products using the Catalog Batch API for job 158770aa3218d5c543ad0b95def38fbd: Cannot create the API instance because the access token is missing.
+2026-04-12T15:17:51+00:00 ERROR Error persisting Meta logs: Cannot create the API instance because the access token is missing. : []
+2026-04-12T15:20:48+00:00 NOTICE There was an error trying sync products using the Catalog Batch API for job 107673145064cbf7dcdd872cbf1a4055: Cannot create the API instance because the access token is missing.
+2026-04-12T15:22:35+00:00 ERROR Error persisting Meta logs: Cannot create the API instance because the access token is missing. : []
+2026-04-12T15:27:44+00:00 ERROR Error persisting Meta logs: Cannot create the API instance because the access token is missing. : []
+2026-04-12T15:33:01+00:00 ERROR Error persisting Meta logs: Cannot create the API instance because the access token is missing. : []
+2026-04-12T15:37:40+00:00 ERROR Error persisting Meta logs: Cannot create the API instance because the access token is missing. : []
+2026-04-12T15:42:37+00:00 ERROR Error persisting Meta logs: Cannot create the API instance because the access token is missing. : []
+2026-04-12T15:48:27+00:00 ERROR Error persisting Meta logs: Cannot create the API instance because the access token is missing. : []
+2026-04-12T15:58:28+00:00 ERROR Error persisting Meta logs: Cannot create the API instance because the access token is missing. : []
+2026-04-12T16:03:33+00:00 ERROR Error persisting Meta logs: Cannot create the API instance because the access token is missing. : []
+2026-04-12T16:07:57+00:00 ERROR Error persisting Meta logs: Cannot create the API instance because the access token is missing. : []
+2026-04-12T16:12:29+00:00 WARNING Product feed scheduling failed: Integration not configured. : {"flow_name":"product_feed","flow_step":"schedule_feed_generation"}
+2026-04-12T16:12:29+00:00 WARNING Language override feed scheduling failed: Integration not configured. : {"flow_name":"language_override_feed","flow_step":"schedule_feed_generation"}
+2026-04-12T16:12:29+00:00 ERROR Error persisting error logs: Cannot create the API instance because the access token is missing. : []
+2026-04-12T16:12:29+00:00 ERROR Error persisting Meta logs: Cannot create the API instance because the access token is missing. : []
+2026-04-12T16:17:44+00:00 ERROR Error persisting Meta logs: Cannot create the API instance because the access token is missing. : []
+2026-04-12T16:22:29+00:00 ERROR Error persisting Meta logs: Cannot create the API instance because the access token is missing. : []
+2026-04-12T16:27:29+00:00 ERROR Error persisting Meta logs: Cannot create the API instance because the access token is missing. : []
+2026-04-12T16:34:43+00:00 ERROR Error persisting Meta logs: Cannot create the API instance because the access token is missing. : []
+2026-04-12T16:37:30+00:00 ERROR Error persisting Meta logs: Cannot create the API instance because the access token is missing. : []
+2026-04-12T16:44:42+00:00 ERROR Error persisting Meta logs: Cannot create the API instance because the access token is missing. : []
+2026-04-12T16:57:18+00:00 ERROR Error persisting Meta logs: Cannot create the API instance because the access token is missing. : []
+2026-04-12T16:57:29+00:00 ERROR Error persisting Meta logs: Cannot create the API instance because the access token is missing. : []
+2026-04-12T16:57:29+00:00 ERROR Error persisting Meta logs: Cannot create the API instance because the access token is missing. : []
+2026-04-12T17:02:33+00:00 ERROR Error persisting Meta logs: Cannot create the API instance because the access token is missing. : []
+2026-04-12T17:07:33+00:00 ERROR Error persisting Meta logs: Cannot create the API instance because the access token is missing. : []
+2026-04-12T17:12:40+00:00 WARNING Product feed scheduling failed: Integration not configured. : {"flow_name":"product_feed","flow_step":"schedule_feed_generation"}
+2026-04-12T17:12:40+00:00 WARNING Language override feed scheduling failed: Integration not configured. : {"flow_name":"language_override_feed","flow_step":"schedule_feed_generation"}
+2026-04-12T17:12:40+00:00 ERROR Error persisting Meta logs: Cannot create the API instance because the access token is missing. : []
+2026-04-12T17:17:29+00:00 ERROR Error persisting Meta logs: Cannot create the API instance because the access token is missing. : []
+2026-04-12T17:23:54+00:00 ERROR Error persisting Meta logs: Cannot create the API instance because the access token is missing. : []
+2026-04-12T17:28:20+00:00 ERROR Error persisting Meta logs: Cannot create the API instance because the access token is missing. : []
+2026-04-12T17:34:04+00:00 ERROR Error persisting Meta logs: Cannot create the API instance because the access token is missing. : []
+2026-04-12T23:36:31+00:00 WARNING Product feed scheduling failed: Integration not configured. : {"flow_name":"product_feed","flow_step":"schedule_feed_generation"}
+2026-04-12T23:36:31+00:00 WARNING Language override feed scheduling failed: Integration not configured. : {"flow_name":"language_override_feed","flow_step":"schedule_feed_generation"}
+2026-04-12T23:36:31+00:00 ERROR Error persisting error logs: Cannot create the API instance because the access token is missing. : []

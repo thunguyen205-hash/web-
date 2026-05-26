@@ -1,0 +1,33 @@
+2026-04-13T07:32:11+00:00 DEBUG #9372 - [New Request] GET /wp-admin/admin.php
+2026-04-13T07:32:11+00:00 DEBUG #9372 - GET https://api.woocommerce.com/integrations/ppc/v1/customer/partners/K8SKZ36LQBWXJ/merchant-integrations/
+Response: Array
+(
+    [code] => 404
+    [message] => Not Found
+)
+
+Response Body: {"statusCode":404,"error":"Not Found","message":"Not Found"}
+2026-04-13T07:32:11+00:00 WARNING #9372 - [Error] Not Found CONTEXT: {"args":{"method":"GET","headers":{"Authorization":"Bearer token","Content-Type":"application/json"}},"response":{"headers":{},"body":"{"statusCode":404,"error":"Not Found","message":"Not Found"}","response":{"code":404,"message":"Not Found"},"cookies":[],"filename":null,"http_response":{"data":null,"headers":null,"status":null}}}
+2026-04-13T07:32:15+00:00 DEBUG #9581 - [New Request] GET /wp-json/wc/v3/wc_paypal/webhooks
+2026-04-13T07:32:15+00:00 DEBUG #9581 - GET https://api.woocommerce.com/integrations/ppc/v1/notifications/webhooks
+Response: Array
+(
+    [code] => 404
+    [message] => Not Found
+)
+
+Response Body: {"statusCode":404,"error":"Not Found","message":"Not Found"}
+2026-04-13T07:37:03+00:00 DEBUG #5285 - [New Request] POST /wp-json/wp/v2/plugins/woocommerce-paypal-payments/woocommerce-paypal-payments
+2026-04-13T07:37:03+00:00 DEBUG #5285 - Webhook lock acquired for 'unregister'.
+2026-04-13T07:37:03+00:00 DEBUG #5285 - Webhook operation 'unregister' started.
+2026-04-13T07:37:04+00:00 DEBUG #5285 - GET https://api.woocommerce.com/integrations/ppc/v1/notifications/webhooks
+Response: Array
+(
+    [code] => 404
+    [message] => Not Found
+)
+
+Response Body: {"statusCode":404,"error":"Not Found","message":"Not Found"}
+2026-04-13T07:37:04+00:00 ERROR #5285 - Failed to delete webhooks: [Error] Not Found
+2026-04-13T07:37:04+00:00 INFO #5285 - Webhooks deleted.
+2026-04-13T07:37:04+00:00 DEBUG #5285 - Webhook lock released for 'unregister'.

@@ -1,0 +1,2 @@
+2026/05/06 19:38:40 [error] 12275#12275: *44968 openat() "/home/wp-fl-demo-tt43/htdocs/tt43.wp-fl-demo.xyz/favicon.ico" failed (2: No such file or directory), client: 104.236.218.198, server: tt43.wp-fl-demo.xyz, request: "GET /favicon.ico HTTP/1.1", host: "tt43.wp-fl-demo.xyz", referrer: "https://tt43.wp-fl-demo.xyz/"
+2026/05/06 20:00:07 [error] 12275#12275: *45765 access forbidden by rule, client: 5.45.84.175, server: tt43.wp-fl-demo.xyz, request: "POST /xmlrpc.php HTTP/2.0", host: "tt43.wp-fl-demo.xyz"

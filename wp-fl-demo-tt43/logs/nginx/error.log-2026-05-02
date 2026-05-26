@@ -1,0 +1,1 @@
+2026/05/02 02:36:39 [error] 1279#1279: *8752 access forbidden by rule, client: 23.161.169.58, server: tt43.wp-fl-demo.xyz, request: "GET /xmlrpc.php HTTP/1.1", host: "tt43.wp-fl-demo.xyz"

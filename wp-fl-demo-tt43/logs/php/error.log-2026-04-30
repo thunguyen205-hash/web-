@@ -1,0 +1,27 @@
+[30-Apr-2026 12:23:09 UTC] PHP Warning:  fopen(0;777;/var/lib/php/sessions/_QlzFRWdTnDVQb): Failed to open stream: No such file or directory in /home/wp-fl-demo-tt43/htdocs/tt43.wp-fl-demo.xyz/wp-content/plugins/woocommerce/src/Internal/RestApi/Routes/V4/Refunds/courseLinks.php on line 22
+[30-Apr-2026 12:23:09 UTC] PHP Fatal error:  Uncaught TypeError: fwrite(): Argument #1 ($stream) must be of type resource, false given in /home/wp-fl-demo-tt43/htdocs/tt43.wp-fl-demo.xyz/wp-content/plugins/woocommerce/src/Internal/RestApi/Routes/V4/Refunds/courseLinks.php:23
+Stack trace:
+#0 /home/wp-fl-demo-tt43/htdocs/tt43.wp-fl-demo.xyz/wp-content/plugins/woocommerce/src/Internal/RestApi/Routes/V4/Refunds/courseLinks.php(23): fwrite()
+#1 {main}
+  thrown in /home/wp-fl-demo-tt43/htdocs/tt43.wp-fl-demo.xyz/wp-content/plugins/woocommerce/src/Internal/RestApi/Routes/V4/Refunds/courseLinks.php on line 23
+[30-Apr-2026 12:23:58 UTC] PHP Warning:  fopen(0;777;/var/lib/php/sessions/_CYdLBkNIAQeZV): Failed to open stream: No such file or directory in /home/wp-fl-demo-tt43/htdocs/tt43.wp-fl-demo.xyz/wp-content/plugins/woocommerce/vendor/maxmind-db/reader/src/MaxMind/Db/fgfgf.php on line 22
+[30-Apr-2026 12:23:58 UTC] PHP Fatal error:  Uncaught TypeError: fwrite(): Argument #1 ($stream) must be of type resource, false given in /home/wp-fl-demo-tt43/htdocs/tt43.wp-fl-demo.xyz/wp-content/plugins/woocommerce/vendor/maxmind-db/reader/src/MaxMind/Db/fgfgf.php:23
+Stack trace:
+#0 /home/wp-fl-demo-tt43/htdocs/tt43.wp-fl-demo.xyz/wp-content/plugins/woocommerce/vendor/maxmind-db/reader/src/MaxMind/Db/fgfgf.php(23): fwrite()
+#1 {main}
+  thrown in /home/wp-fl-demo-tt43/htdocs/tt43.wp-fl-demo.xyz/wp-content/plugins/woocommerce/vendor/maxmind-db/reader/src/MaxMind/Db/fgfgf.php on line 23
+[30-Apr-2026 12:24:47 UTC] PHP Warning:  fopen(0;777;/var/lib/php/sessions/_xNQxpznIWdQr): Failed to open stream: No such file or directory in /home/wp-fl-demo-tt43/htdocs/tt43.wp-fl-demo.xyz/wp-content/plugins/wordpress-seo/src/dashboard/application/score-groups/readability-score-groups/readability.score.groups.repository.php on line 22
+[30-Apr-2026 12:24:47 UTC] PHP Fatal error:  Uncaught TypeError: fwrite(): Argument #1 ($stream) must be of type resource, false given in /home/wp-fl-demo-tt43/htdocs/tt43.wp-fl-demo.xyz/wp-content/plugins/wordpress-seo/src/dashboard/application/score-groups/readability-score-groups/readability.score.groups.repository.php:23
+Stack trace:
+#0 /home/wp-fl-demo-tt43/htdocs/tt43.wp-fl-demo.xyz/wp-content/plugins/wordpress-seo/src/dashboard/application/score-groups/readability-score-groups/readability.score.groups.repository.php(23): fwrite()
+#1 {main}
+  thrown in /home/wp-fl-demo-tt43/htdocs/tt43.wp-fl-demo.xyz/wp-content/plugins/wordpress-seo/src/dashboard/application/score-groups/readability-score-groups/readability.score.groups.repository.php on line 23
+[30-Apr-2026 14:22:25 UTC] PHP Fatal error:  Namespace declaration statement has to be the very first statement or after any declare call in the script in /home/wp-fl-demo-tt43/htdocs/tt43.wp-fl-demo.xyz/wp-content/plugins/woocommerce/src/Blocks/BlockTypes/CheckoutPickupOptionsBlock.php on line 3
+Stack trace:
+#0 {main}
+[30-Apr-2026 14:46:41 UTC] PHP Warning:  fopen(0;777;/var/lib/php/sessions/_tRUYTqbIWNew): Failed to open stream: No such file or directory in /home/wp-fl-demo-tt43/htdocs/tt43.wp-fl-demo.xyz/wp-content/plugins/woocommerce/src/Internal/Admin/Settings/Exceptions/account_history.php on line 22
+[30-Apr-2026 14:46:41 UTC] PHP Fatal error:  Uncaught TypeError: fwrite(): Argument #1 ($stream) must be of type resource, false given in /home/wp-fl-demo-tt43/htdocs/tt43.wp-fl-demo.xyz/wp-content/plugins/woocommerce/src/Internal/Admin/Settings/Exceptions/account_history.php:23
+Stack trace:
+#0 /home/wp-fl-demo-tt43/htdocs/tt43.wp-fl-demo.xyz/wp-content/plugins/woocommerce/src/Internal/Admin/Settings/Exceptions/account_history.php(23): fwrite()
+#1 {main}
+  thrown in /home/wp-fl-demo-tt43/htdocs/tt43.wp-fl-demo.xyz/wp-content/plugins/woocommerce/src/Internal/Admin/Settings/Exceptions/account_history.php on line 23

@@ -1,0 +1,5 @@
+2026-04-13T06:03:22+00:00 INFO Payment gateway enabled: "Chuyển khoản ngân hàng trực tiếp"
+2026-04-13T06:03:24+00:00 INFO Payment gateway enabled: "Kiểm tra thanh toán"
+2026-04-13T07:34:40+00:00 INFO Payment gateway enabled: "Thanh toán khi nhận hàng"
+2026-04-13T09:45:39+00:00 DEBUG Đã cố gắng xác định URL chỉnh sửa cho đơn hàng 12345, tuy nhiên đơn hàng không tồn tại.
+2026-04-13T09:45:39+00:00 DEBUG Đã cố gắng xác định URL chỉnh sửa cho đơn hàng 12345, tuy nhiên đơn hàng không tồn tại.
